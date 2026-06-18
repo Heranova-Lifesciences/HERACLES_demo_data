@@ -1,0 +1,7 @@
+Sample,File,Total_reads,Total_bp,Quality_trimmed_bp
+GSM7990419.fastq,GSM7990419.fastq_trimming_report.txt,"8,567,100","428,355,000 bp","678,701 bp (0.2%)"
+GSM7990420.fastq,GSM7990420.fastq_trimming_report.txt,"8,377,456","418,872,800 bp","701,293 bp (0.2%)"
+GSM7990421.fastq,GSM7990421.fastq_trimming_report.txt,"10,828,779","541,438,950 bp","791,311 bp (0.1%)"
+GSM7990422.fastq,GSM7990422.fastq_trimming_report.txt,"6,959,207","347,960,350 bp","591,286 bp (0.2%)"
+GSM7990423.fastq,GSM7990423.fastq_trimming_report.txt,"8,723,472","436,173,600 bp","762,518 bp (0.2%)"
+GSM7990424.fastq,GSM7990424.fastq_trimming_report.txt,"9,820,866","491,043,300 bp","837,620 bp (0.2%)"

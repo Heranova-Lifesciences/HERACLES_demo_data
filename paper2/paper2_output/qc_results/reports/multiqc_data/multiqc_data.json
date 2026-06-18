@@ -1,0 +1,4865 @@
+{
+    "report_multiqc_command": "/home/huyao/.conda/envs/R4/bin/multiqc HERACLES_output/qc_results/trimmed -o HERACLES_output/qc_results/reports -f -v",
+    "report_data_sources": {
+        "Cutadapt": {
+            "all_sections": {
+                "SRR12857075": "/mpathc/users/huyao/tsRNA/new_project4/HERACLES_output/qc_results/trimmed/SRR12857075.fastq_trimming_report.txt",
+                "SRR12857076": "/mpathc/users/huyao/tsRNA/new_project4/HERACLES_output/qc_results/trimmed/SRR12857076.fastq_trimming_report.txt",
+                "SRR12857077": "/mpathc/users/huyao/tsRNA/new_project4/HERACLES_output/qc_results/trimmed/SRR12857077.fastq_trimming_report.txt",
+                "SRR12857078": "/mpathc/users/huyao/tsRNA/new_project4/HERACLES_output/qc_results/trimmed/SRR12857078.fastq_trimming_report.txt",
+                "SRR12857079": "/mpathc/users/huyao/tsRNA/new_project4/HERACLES_output/qc_results/trimmed/SRR12857079.fastq_trimming_report.txt",
+                "SRR12857080": "/mpathc/users/huyao/tsRNA/new_project4/HERACLES_output/qc_results/trimmed/SRR12857080.fastq_trimming_report.txt",
+                "SRR12857081": "/mpathc/users/huyao/tsRNA/new_project4/HERACLES_output/qc_results/trimmed/SRR12857081.fastq_trimming_report.txt",
+                "SRR12857082": "/mpathc/users/huyao/tsRNA/new_project4/HERACLES_output/qc_results/trimmed/SRR12857082.fastq_trimming_report.txt"
+            }
+        }
+    },
+    "report_general_stats_data": {
+        "cutadapt": {
+            "SRR12857075": {
+                "cutadapt_version": "4.9",
+                "r_processed": 8197462,
+                "r_with_adapters": 8126578,
+                "r_written": 8197462,
+                "bp_processed": 418070562,
+                "quality_trimmed": 1602599,
+                "bp_written": 188066838,
+                "percent_trimmed": 55.01552725924769
+            },
+            "SRR12857076": {
+                "cutadapt_version": "4.9",
+                "r_processed": 5545676,
+                "r_with_adapters": 5463746,
+                "r_written": 5545676,
+                "bp_processed": 282829476,
+                "quality_trimmed": 801802,
+                "bp_written": 138347588,
+                "percent_trimmed": 51.08445203214957
+            },
+            "SRR12857077": {
+                "cutadapt_version": "4.9",
+                "r_processed": 8983377,
+                "r_with_adapters": 8861213,
+                "r_written": 8983377,
+                "bp_processed": 458152227,
+                "quality_trimmed": 1184909,
+                "bp_written": 226486661,
+                "percent_trimmed": 50.56519478622986
+            },
+            "SRR12857078": {
+                "cutadapt_version": "4.9",
+                "r_processed": 6711380,
+                "r_with_adapters": 6547921,
+                "r_written": 6711380,
+                "bp_processed": 342280380,
+                "quality_trimmed": 1091445,
+                "bp_written": 184978068,
+                "percent_trimmed": 45.95715126879315
+            },
+            "SRR12857079": {
+                "cutadapt_version": "4.9",
+                "r_processed": 9007176,
+                "r_with_adapters": 8575881,
+                "r_written": 9007176,
+                "bp_processed": 459365976,
+                "quality_trimmed": 1337406,
+                "bp_written": 270297822,
+                "percent_trimmed": 41.15850190872648
+            },
+            "SRR12857080": {
+                "cutadapt_version": "4.9",
+                "r_processed": 10464454,
+                "r_with_adapters": 10208554,
+                "r_written": 10464454,
+                "bp_processed": 533687154,
+                "quality_trimmed": 1877137,
+                "bp_written": 281117089,
+                "percent_trimmed": 47.32549080617369
+            },
+            "SRR12857081": {
+                "cutadapt_version": "4.9",
+                "r_processed": 10725016,
+                "r_with_adapters": 10415240,
+                "r_written": 10725016,
+                "bp_processed": 546975816,
+                "quality_trimmed": 1564310,
+                "bp_written": 321378569,
+                "percent_trimmed": 41.244464636440156
+            },
+            "SRR12857082": {
+                "cutadapt_version": "4.9",
+                "r_processed": 9291426,
+                "r_with_adapters": 9089308,
+                "r_written": 9291426,
+                "bp_processed": 473862726,
+                "quality_trimmed": 2151914,
+                "bp_written": 231223421,
+                "percent_trimmed": 51.20455602156815
+            }
+        }
+    },
+    "report_general_stats_headers": {
+        "cutadapt": {
+            "percent_trimmed": {
+                "title": "Trimmed bases",
+                "description": "% total base pairs trimmed",
+                "max": 100,
+                "min": 0,
+                "suffix": "%",
+                "scale": "RdYlBu-rev",
+                "namespace": "Cutadapt",
+                "clean_rid": "cutadapt-percent_trimmed",
+                "rid": "cutadapt-percent_trimmed",
+                "placement": 1000
+            }
+        }
+    },
+    "report_creation_date": "2026-05-19, 16:53 CST",
+    "report_plot_data": {
+        "cutadapt_filtered_reads_plot": {
+            "id": "cutadapt_filtered_reads_plot",
+            "anchor": "cutadapt_filtered_reads_plot",
+            "plot_type": "bar plot",
+            "layout": {
+                "autosize": true,
+                "height": 380,
+                "hoverlabel": {
+                    "namelength": -1,
+                    "bgcolor": "rgba(255, 255, 255, 0.8)",
+                    "font": {
+                        "color": "black"
+                    }
+                },
+                "margin": {
+                    "b": 65,
+                    "l": 60,
+                    "pad": 5,
+                    "r": 15,
+                    "t": 50
+                },
+                "showlegend": true,
+                "template": {
+                    "layout": {
+                        "colorway": [
+                            "#7cb5ec",
+                            "#434348",
+                            "#90ed7d",
+                            "#f7a35c",
+                            "#8085e9",
+                            "#f15c80",
+                            "#e4d354",
+                            "#2b908f",
+                            "#f45b5b",
+                            "#91e8e1"
+                        ],
+                        "font": {
+                            "family": "'Lucida Grande', 'Open Sans', verdana, arial, sans-serif"
+                        },
+                        "modebar": {
+                            "activecolor": "rgba(0, 0, 0, 1)",
+                            "bgcolor": "rgba(0, 0, 0, 0)",
+                            "color": "rgba(0, 0, 0, 0.5)"
+                        },
+                        "paper_bgcolor": "white",
+                        "plot_bgcolor": "white",
+                        "title": {
+                            "font": {
+                                "size": 20
+                            }
+                        },
+                        "xaxis": {
+                            "color": "rgba(0,0,0,0.3)",
+                            "gridcolor": "rgba(0,0,0,0.05)",
+                            "tickfont": {
+                                "color": "rgba(0,0,0,1)",
+                                "size": 10
+                            },
+                            "zerolinecolor": "rgba(0,0,0,0.05)"
+                        },
+                        "yaxis": {
+                            "color": "rgba(0,0,0,0.3)",
+                            "gridcolor": "rgba(0,0,0,0.05)",
+                            "tickfont": {
+                                "color": "rgba(0,0,0,1)",
+                                "size": 10
+                            },
+                            "zerolinecolor": "rgba(0,0,0,0.05)"
+                        }
+                    }
+                },
+                "title": {
+                    "text": "Cutadapt: Filtered Reads",
+                    "x": 0.5,
+                    "xanchor": "center"
+                },
+                "xaxis": {
+                    "automargin": true
+                },
+                "yaxis": {
+                    "automargin": true,
+                    "showgrid": false,
+                    "categoryorder": "trace",
+                    "type": "category"
+                },
+                "barmode": "relative",
+                "bargroupgap": 0,
+                "bargap": 0.2,
+                "legend": {
+                    "tracegroupgap": 0,
+                    "traceorder": "normal"
+                },
+                "hovermode": "y unified"
+            },
+            "datasets": [
+                {
+                    "plot_id": "cutadapt_filtered_reads_plot",
+                    "label": "1",
+                    "uid": "cutadapt_filtered_reads_plot",
+                    "dconfig": {
+                        "title": "Cutadapt: Filtered Reads",
+                        "subtitle": "8 samples"
+                    },
+                    "layout": {
+                        "title": {
+                            "text": "Cutadapt: Filtered Reads<br><sup>8 samples</sup>"
+                        },
+                        "xaxis": {
+                            "title": {
+                                "text": "Counts"
+                            },
+                            "hoverformat": ",.2f",
+                            "ticksuffix": "",
+                            "autorangeoptions": {
+                                "minallowed": 0,
+                                "maxallowed": 10725016.0
+                            }
+                        },
+                        "yaxis": {
+                            "title": null,
+                            "hoverformat": null,
+                            "ticksuffix": ""
+                        },
+                        "showlegend": false
+                    },
+                    "trace_params": {
+                        "hovertemplate": "<b></b>%{meta}: <b>%{x}</b><extra></extra>",
+                        "orientation": "h",
+                        "marker": {
+                            "line": {
+                                "width": 0
+                            }
+                        },
+                        "textposition": "inside",
+                        "insidetextanchor": "start"
+                    },
+                    "pct_range": {
+                        "xaxis": {
+                            "min": 0,
+                            "max": 100
+                        },
+                        "yaxis": {
+                            "min": 0,
+                            "max": 100
+                        }
+                    },
+                    "n_series": 8,
+                    "cats": [
+                        {
+                            "name": "Reads passing filters",
+                            "color": "rgba(67,67,72,1)",
+                            "data": [
+                                9291426.0,
+                                10725016.0,
+                                10464454.0,
+                                9007176.0,
+                                6711380.0,
+                                8983377.0,
+                                5545676.0,
+                                8197462.0
+                            ],
+                            "data_pct": [
+                                100.0,
+                                100.0,
+                                100.0,
+                                100.0,
+                                100.0,
+                                100.0,
+                                100.0,
+                                100.0
+                            ]
+                        }
+                    ],
+                    "samples": [
+                        "SRR12857082",
+                        "SRR12857081",
+                        "SRR12857080",
+                        "SRR12857079",
+                        "SRR12857078",
+                        "SRR12857077",
+                        "SRR12857076",
+                        "SRR12857075"
+                    ]
+                }
+            ],
+            "pconfig": {
+                "id": "cutadapt_filtered_reads_plot",
+                "title": "Cutadapt: Filtered Reads",
+                "subtitle": null,
+                "anchor": null,
+                "table_title": null,
+                "height": null,
+                "width": null,
+                "square": false,
+                "logswitch": false,
+                "logswitch_active": false,
+                "logswitch_label": "Log10",
+                "cpswitch": true,
+                "cpswitch_c_active": true,
+                "cpswitch_counts_label": "Counts",
+                "cpswitch_percent_label": "Percentages",
+                "xLog": null,
+                "yLog": null,
+                "xlog": false,
+                "ylog": false,
+                "data_labels": [],
+                "xTitle": null,
+                "yTitle": null,
+                "xlab": null,
+                "ylab": "Counts",
+                "xsuffix": null,
+                "ysuffix": null,
+                "tt_suffix": null,
+                "xLabFormat": null,
+                "yLabFormat": null,
+                "xLabelFormat": null,
+                "yLabelFormat": null,
+                "xlab_format": null,
+                "ylab_format": null,
+                "tt_label": null,
+                "xDecimals": null,
+                "yDecimals": null,
+                "decimalPlaces": null,
+                "x_decimals": null,
+                "y_decimals": null,
+                "tt_decimals": null,
+                "xmin": null,
+                "xmax": null,
+                "ymin": null,
+                "ymax": null,
+                "xFloor": null,
+                "xCeiling": null,
+                "yFloor": null,
+                "yCeiling": null,
+                "x_clipmin": null,
+                "x_clipmax": null,
+                "y_clipmin": null,
+                "y_clipmax": null,
+                "save_data_file": true,
+                "showlegend": null,
+                "xMinRange": null,
+                "yMinRange": null,
+                "x_minrange": null,
+                "y_minrange": null,
+                "xPlotBands": null,
+                "yPlotBands": null,
+                "xPlotLines": null,
+                "yPlotLines": null,
+                "x_bands": null,
+                "y_bands": null,
+                "x_lines": null,
+                "y_lines": null,
+                "series_label": "samples",
+                "stacking": "relative",
+                "hide_empty": null,
+                "hide_zero_cats": true,
+                "sort_samples": true,
+                "use_legend": null,
+                "suffix": null,
+                "lab_format": null
+            },
+            "add_log_tab": false,
+            "add_pct_tab": true,
+            "l_active": false,
+            "p_active": false,
+            "pct_axis_update": {
+                "ticksuffix": "%",
+                "hoverformat": ".1f"
+            },
+            "axis_controlled_by_switches": [
+                "xaxis"
+            ],
+            "square": false,
+            "flat": false,
+            "defer_render": false,
+            "section_anchor": null,
+            "module_anchor": null
+        },
+        "cutadapt_trimmed_sequences_plot_3": {
+            "id": "cutadapt_trimmed_sequences_plot_3",
+            "anchor": "cutadapt_trimmed_sequences_plot_3",
+            "plot_type": "x/y line",
+            "layout": {
+                "autosize": true,
+                "height": 500,
+                "hoverlabel": {
+                    "namelength": -1
+                },
+                "margin": {
+                    "b": 65,
+                    "l": 60,
+                    "pad": 5,
+                    "r": 15,
+                    "t": 50
+                },
+                "showlegend": false,
+                "template": {
+                    "layout": {
+                        "colorway": [
+                            "#7cb5ec",
+                            "#434348",
+                            "#90ed7d",
+                            "#f7a35c",
+                            "#8085e9",
+                            "#f15c80",
+                            "#e4d354",
+                            "#2b908f",
+                            "#f45b5b",
+                            "#91e8e1"
+                        ],
+                        "font": {
+                            "family": "'Lucida Grande', 'Open Sans', verdana, arial, sans-serif"
+                        },
+                        "modebar": {
+                            "activecolor": "rgba(0, 0, 0, 1)",
+                            "bgcolor": "rgba(0, 0, 0, 0)",
+                            "color": "rgba(0, 0, 0, 0.5)"
+                        },
+                        "paper_bgcolor": "white",
+                        "plot_bgcolor": "white",
+                        "title": {
+                            "font": {
+                                "size": 20
+                            }
+                        },
+                        "xaxis": {
+                            "color": "rgba(0,0,0,0.3)",
+                            "gridcolor": "rgba(0,0,0,0.05)",
+                            "tickfont": {
+                                "color": "rgba(0,0,0,1)",
+                                "size": 10
+                            },
+                            "zerolinecolor": "rgba(0,0,0,0.05)"
+                        },
+                        "yaxis": {
+                            "color": "rgba(0,0,0,0.3)",
+                            "gridcolor": "rgba(0,0,0,0.05)",
+                            "tickfont": {
+                                "color": "rgba(0,0,0,1)",
+                                "size": 10
+                            },
+                            "zerolinecolor": "rgba(0,0,0,0.05)"
+                        }
+                    }
+                },
+                "title": {
+                    "text": "Cutadapt: Lengths of Trimmed Sequences (3' end)",
+                    "x": 0.5,
+                    "xanchor": "center"
+                },
+                "xaxis": {
+                    "automargin": true
+                },
+                "yaxis": {
+                    "automargin": true
+                },
+                "hoverdistance": -1
+            },
+            "datasets": [
+                {
+                    "plot_id": "cutadapt_trimmed_sequences_plot_3",
+                    "label": "Counts",
+                    "uid": "cutadapt_trimmed_sequences_plot_3_Counts",
+                    "dconfig": {
+                        "name": "Counts",
+                        "ylab": "Count",
+                        "title": "Cutadapt: Lengths of Trimmed Sequences (3' end)",
+                        "subtitle": "Counts, 8 samples"
+                    },
+                    "layout": {
+                        "title": {
+                            "text": "Cutadapt: Lengths of Trimmed Sequences (3' end)<br><sup>Counts, 8 samples</sup>"
+                        },
+                        "xaxis": {
+                            "hoverformat": null,
+                            "ticksuffix": " bp",
+                            "title": {
+                                "text": "Length Trimmed (bp)"
+                            },
+                            "rangemode": "normal",
+                            "autorangeoptions": {
+                                "clipmin": null,
+                                "clipmax": null,
+                                "minallowed": null,
+                                "maxallowed": null
+                            }
+                        },
+                        "yaxis": {
+                            "hoverformat": null,
+                            "ticksuffix": "",
+                            "title": {
+                                "text": "Count"
+                            },
+                            "rangemode": "tozero",
+                            "autorangeoptions": {
+                                "clipmin": null,
+                                "clipmax": null,
+                                "minallowed": 0,
+                                "maxallowed": null
+                            }
+                        }
+                    },
+                    "trace_params": {
+                        "hovertemplate": "<b>%{text}</b><br><b>%{x} trimmed</b>: %{y:.0f}<extra></extra>",
+                        "mode": "lines",
+                        "line": {
+                            "width": 2
+                        }
+                    },
+                    "pct_range": {
+                        "xaxis": {
+                            "min": 0,
+                            "max": 100
+                        },
+                        "yaxis": {
+                            "min": 0,
+                            "max": 100
+                        }
+                    },
+                    "n_series": 8,
+                    "lines": [
+                        {
+                            "name": "SRR12857075 - Adapter 1",
+                            "pairs": [
+                                [
+                                    1,
+                                    35689
+                                ],
+                                [
+                                    2,
+                                    11984
+                                ],
+                                [
+                                    3,
+                                    8581
+                                ],
+                                [
+                                    4,
+                                    11197
+                                ],
+                                [
+                                    5,
+                                    21856
+                                ],
+                                [
+                                    6,
+                                    81172
+                                ],
+                                [
+                                    7,
+                                    67313
+                                ],
+                                [
+                                    8,
+                                    42965
+                                ],
+                                [
+                                    9,
+                                    26249
+                                ],
+                                [
+                                    10,
+                                    30547
+                                ],
+                                [
+                                    11,
+                                    40408
+                                ],
+                                [
+                                    12,
+                                    48673
+                                ],
+                                [
+                                    13,
+                                    31630
+                                ],
+                                [
+                                    14,
+                                    28747
+                                ],
+                                [
+                                    15,
+                                    60592
+                                ],
+                                [
+                                    16,
+                                    102161
+                                ],
+                                [
+                                    17,
+                                    161996
+                                ],
+                                [
+                                    18,
+                                    327631
+                                ],
+                                [
+                                    19,
+                                    321462
+                                ],
+                                [
+                                    20,
+                                    141310
+                                ],
+                                [
+                                    21,
+                                    71800
+                                ],
+                                [
+                                    22,
+                                    88659
+                                ],
+                                [
+                                    23,
+                                    95544
+                                ],
+                                [
+                                    24,
+                                    61798
+                                ],
+                                [
+                                    25,
+                                    40731
+                                ],
+                                [
+                                    26,
+                                    64291
+                                ],
+                                [
+                                    27,
+                                    284726
+                                ],
+                                [
+                                    28,
+                                    691333
+                                ],
+                                [
+                                    29,
+                                    2240223
+                                ],
+                                [
+                                    30,
+                                    682003
+                                ],
+                                [
+                                    31,
+                                    272454
+                                ],
+                                [
+                                    32,
+                                    109079
+                                ],
+                                [
+                                    33,
+                                    97359
+                                ],
+                                [
+                                    34,
+                                    105727
+                                ],
+                                [
+                                    35,
+                                    128837
+                                ],
+                                [
+                                    36,
+                                    168302
+                                ],
+                                [
+                                    37,
+                                    118618
+                                ],
+                                [
+                                    38,
+                                    213756
+                                ],
+                                [
+                                    39,
+                                    301521
+                                ],
+                                [
+                                    40,
+                                    305095
+                                ],
+                                [
+                                    41,
+                                    164691
+                                ],
+                                [
+                                    42,
+                                    117117
+                                ],
+                                [
+                                    43,
+                                    14322
+                                ],
+                                [
+                                    44,
+                                    35473
+                                ],
+                                [
+                                    45,
+                                    23115
+                                ],
+                                [
+                                    46,
+                                    5740
+                                ],
+                                [
+                                    47,
+                                    2347
+                                ],
+                                [
+                                    48,
+                                    735
+                                ],
+                                [
+                                    49,
+                                    1197
+                                ],
+                                [
+                                    50,
+                                    5548
+                                ],
+                                [
+                                    51,
+                                    12274
+                                ]
+                            ],
+                            "color": "rgba(124,181,236,1)",
+                            "width": 2,
+                            "dash": null,
+                            "showlegend": true,
+                            "marker": null
+                        },
+                        {
+                            "name": "SRR12857076 - Adapter 1",
+                            "pairs": [
+                                [
+                                    1,
+                                    35466
+                                ],
+                                [
+                                    2,
+                                    9876
+                                ],
+                                [
+                                    3,
+                                    4805
+                                ],
+                                [
+                                    4,
+                                    8673
+                                ],
+                                [
+                                    5,
+                                    21717
+                                ],
+                                [
+                                    6,
+                                    93985
+                                ],
+                                [
+                                    7,
+                                    96054
+                                ],
+                                [
+                                    8,
+                                    60064
+                                ],
+                                [
+                                    9,
+                                    17044
+                                ],
+                                [
+                                    10,
+                                    16748
+                                ],
+                                [
+                                    11,
+                                    20287
+                                ],
+                                [
+                                    12,
+                                    29915
+                                ],
+                                [
+                                    13,
+                                    26610
+                                ],
+                                [
+                                    14,
+                                    21418
+                                ],
+                                [
+                                    15,
+                                    31461
+                                ],
+                                [
+                                    16,
+                                    70706
+                                ],
+                                [
+                                    17,
+                                    101251
+                                ],
+                                [
+                                    18,
+                                    132980
+                                ],
+                                [
+                                    19,
+                                    162580
+                                ],
+                                [
+                                    20,
+                                    90793
+                                ],
+                                [
+                                    21,
+                                    40835
+                                ],
+                                [
+                                    22,
+                                    47634
+                                ],
+                                [
+                                    23,
+                                    53645
+                                ],
+                                [
+                                    24,
+                                    39845
+                                ],
+                                [
+                                    25,
+                                    31578
+                                ],
+                                [
+                                    26,
+                                    63396
+                                ],
+                                [
+                                    27,
+                                    243497
+                                ],
+                                [
+                                    28,
+                                    682556
+                                ],
+                                [
+                                    29,
+                                    1813790
+                                ],
+                                [
+                                    30,
+                                    740342
+                                ],
+                                [
+                                    31,
+                                    245395
+                                ],
+                                [
+                                    32,
+                                    65197
+                                ],
+                                [
+                                    33,
+                                    48206
+                                ],
+                                [
+                                    34,
+                                    39794
+                                ],
+                                [
+                                    35,
+                                    34474
+                                ],
+                                [
+                                    36,
+                                    35521
+                                ],
+                                [
+                                    37,
+                                    34477
+                                ],
+                                [
+                                    38,
+                                    29022
+                                ],
+                                [
+                                    39,
+                                    32886
+                                ],
+                                [
+                                    40,
+                                    41250
+                                ],
+                                [
+                                    41,
+                                    18129
+                                ],
+                                [
+                                    42,
+                                    11051
+                                ],
+                                [
+                                    43,
+                                    1535
+                                ],
+                                [
+                                    44,
+                                    2504
+                                ],
+                                [
+                                    45,
+                                    1533
+                                ],
+                                [
+                                    46,
+                                    621
+                                ],
+                                [
+                                    47,
+                                    1044
+                                ],
+                                [
+                                    48,
+                                    272
+                                ],
+                                [
+                                    49,
+                                    371
+                                ],
+                                [
+                                    50,
+                                    2675
+                                ],
+                                [
+                                    51,
+                                    8238
+                                ]
+                            ],
+                            "color": "rgba(67,67,72,1)",
+                            "width": 2,
+                            "dash": null,
+                            "showlegend": true,
+                            "marker": null
+                        },
+                        {
+                            "name": "SRR12857077 - Adapter 1",
+                            "pairs": [
+                                [
+                                    1,
+                                    58396
+                                ],
+                                [
+                                    2,
+                                    19228
+                                ],
+                                [
+                                    3,
+                                    12486
+                                ],
+                                [
+                                    4,
+                                    21581
+                                ],
+                                [
+                                    5,
+                                    52016
+                                ],
+                                [
+                                    6,
+                                    223198
+                                ],
+                                [
+                                    7,
+                                    167986
+                                ],
+                                [
+                                    8,
+                                    106000
+                                ],
+                                [
+                                    9,
+                                    33917
+                                ],
+                                [
+                                    10,
+                                    27475
+                                ],
+                                [
+                                    11,
+                                    27843
+                                ],
+                                [
+                                    12,
+                                    41127
+                                ],
+                                [
+                                    13,
+                                    39502
+                                ],
+                                [
+                                    14,
+                                    36939
+                                ],
+                                [
+                                    15,
+                                    47989
+                                ],
+                                [
+                                    16,
+                                    88877
+                                ],
+                                [
+                                    17,
+                                    127003
+                                ],
+                                [
+                                    18,
+                                    153136
+                                ],
+                                [
+                                    19,
+                                    228287
+                                ],
+                                [
+                                    20,
+                                    205323
+                                ],
+                                [
+                                    21,
+                                    93219
+                                ],
+                                [
+                                    22,
+                                    80193
+                                ],
+                                [
+                                    23,
+                                    109959
+                                ],
+                                [
+                                    24,
+                                    57721
+                                ],
+                                [
+                                    25,
+                                    31269
+                                ],
+                                [
+                                    26,
+                                    58329
+                                ],
+                                [
+                                    27,
+                                    310649
+                                ],
+                                [
+                                    28,
+                                    919399
+                                ],
+                                [
+                                    29,
+                                    3672020
+                                ],
+                                [
+                                    30,
+                                    918322
+                                ],
+                                [
+                                    31,
+                                    350935
+                                ],
+                                [
+                                    32,
+                                    84856
+                                ],
+                                [
+                                    33,
+                                    51957
+                                ],
+                                [
+                                    34,
+                                    44714
+                                ],
+                                [
+                                    35,
+                                    48570
+                                ],
+                                [
+                                    36,
+                                    43337
+                                ],
+                                [
+                                    37,
+                                    49386
+                                ],
+                                [
+                                    38,
+                                    52690
+                                ],
+                                [
+                                    39,
+                                    57953
+                                ],
+                                [
+                                    40,
+                                    50778
+                                ],
+                                [
+                                    41,
+                                    29640
+                                ],
+                                [
+                                    42,
+                                    14608
+                                ],
+                                [
+                                    43,
+                                    3427
+                                ],
+                                [
+                                    44,
+                                    1472
+                                ],
+                                [
+                                    45,
+                                    509
+                                ],
+                                [
+                                    46,
+                                    464
+                                ],
+                                [
+                                    47,
+                                    216
+                                ],
+                                [
+                                    48,
+                                    262
+                                ],
+                                [
+                                    49,
+                                    1089
+                                ],
+                                [
+                                    50,
+                                    2677
+                                ],
+                                [
+                                    51,
+                                    2284
+                                ]
+                            ],
+                            "color": "rgba(144,237,125,1)",
+                            "width": 2,
+                            "dash": null,
+                            "showlegend": true,
+                            "marker": null
+                        },
+                        {
+                            "name": "SRR12857078 - Adapter 1",
+                            "pairs": [
+                                [
+                                    1,
+                                    68047
+                                ],
+                                [
+                                    2,
+                                    25881
+                                ],
+                                [
+                                    3,
+                                    9758
+                                ],
+                                [
+                                    4,
+                                    15490
+                                ],
+                                [
+                                    5,
+                                    39274
+                                ],
+                                [
+                                    6,
+                                    160334
+                                ],
+                                [
+                                    7,
+                                    133094
+                                ],
+                                [
+                                    8,
+                                    89067
+                                ],
+                                [
+                                    9,
+                                    29426
+                                ],
+                                [
+                                    10,
+                                    23085
+                                ],
+                                [
+                                    11,
+                                    23056
+                                ],
+                                [
+                                    12,
+                                    28547
+                                ],
+                                [
+                                    13,
+                                    32146
+                                ],
+                                [
+                                    14,
+                                    26452
+                                ],
+                                [
+                                    15,
+                                    55673
+                                ],
+                                [
+                                    16,
+                                    155118
+                                ],
+                                [
+                                    17,
+                                    156819
+                                ],
+                                [
+                                    18,
+                                    326664
+                                ],
+                                [
+                                    19,
+                                    886225
+                                ],
+                                [
+                                    20,
+                                    233155
+                                ],
+                                [
+                                    21,
+                                    71753
+                                ],
+                                [
+                                    22,
+                                    50948
+                                ],
+                                [
+                                    23,
+                                    54831
+                                ],
+                                [
+                                    24,
+                                    32384
+                                ],
+                                [
+                                    25,
+                                    22903
+                                ],
+                                [
+                                    26,
+                                    46853
+                                ],
+                                [
+                                    27,
+                                    209716
+                                ],
+                                [
+                                    28,
+                                    505166
+                                ],
+                                [
+                                    29,
+                                    1869356
+                                ],
+                                [
+                                    30,
+                                    558010
+                                ],
+                                [
+                                    31,
+                                    266412
+                                ],
+                                [
+                                    32,
+                                    57207
+                                ],
+                                [
+                                    33,
+                                    38472
+                                ],
+                                [
+                                    34,
+                                    26744
+                                ],
+                                [
+                                    35,
+                                    27263
+                                ],
+                                [
+                                    36,
+                                    26109
+                                ],
+                                [
+                                    37,
+                                    30408
+                                ],
+                                [
+                                    38,
+                                    30591
+                                ],
+                                [
+                                    39,
+                                    35422
+                                ],
+                                [
+                                    40,
+                                    32947
+                                ],
+                                [
+                                    41,
+                                    18121
+                                ],
+                                [
+                                    42,
+                                    9247
+                                ],
+                                [
+                                    43,
+                                    1858
+                                ],
+                                [
+                                    44,
+                                    1457
+                                ],
+                                [
+                                    45,
+                                    945
+                                ],
+                                [
+                                    46,
+                                    849
+                                ],
+                                [
+                                    47,
+                                    420
+                                ],
+                                [
+                                    48,
+                                    236
+                                ],
+                                [
+                                    49,
+                                    587
+                                ],
+                                [
+                                    50,
+                                    1603
+                                ],
+                                [
+                                    51,
+                                    1792
+                                ]
+                            ],
+                            "color": "rgba(247,163,92,1)",
+                            "width": 2,
+                            "dash": null,
+                            "showlegend": true,
+                            "marker": null
+                        },
+                        {
+                            "name": "SRR12857079 - Adapter 1",
+                            "pairs": [
+                                [
+                                    1,
+                                    95417
+                                ],
+                                [
+                                    2,
+                                    53483
+                                ],
+                                [
+                                    3,
+                                    67127
+                                ],
+                                [
+                                    4,
+                                    53815
+                                ],
+                                [
+                                    5,
+                                    55572
+                                ],
+                                [
+                                    6,
+                                    142505
+                                ],
+                                [
+                                    7,
+                                    137083
+                                ],
+                                [
+                                    8,
+                                    86294
+                                ],
+                                [
+                                    9,
+                                    35421
+                                ],
+                                [
+                                    10,
+                                    32056
+                                ],
+                                [
+                                    11,
+                                    33896
+                                ],
+                                [
+                                    12,
+                                    44935
+                                ],
+                                [
+                                    13,
+                                    40280
+                                ],
+                                [
+                                    14,
+                                    41642
+                                ],
+                                [
+                                    15,
+                                    51040
+                                ],
+                                [
+                                    16,
+                                    94902
+                                ],
+                                [
+                                    17,
+                                    335943
+                                ],
+                                [
+                                    18,
+                                    986920
+                                ],
+                                [
+                                    19,
+                                    1764430
+                                ],
+                                [
+                                    20,
+                                    496473
+                                ],
+                                [
+                                    21,
+                                    202953
+                                ],
+                                [
+                                    22,
+                                    169336
+                                ],
+                                [
+                                    23,
+                                    292307
+                                ],
+                                [
+                                    24,
+                                    251196
+                                ],
+                                [
+                                    25,
+                                    84116
+                                ],
+                                [
+                                    26,
+                                    78706
+                                ],
+                                [
+                                    27,
+                                    191396
+                                ],
+                                [
+                                    28,
+                                    661210
+                                ],
+                                [
+                                    29,
+                                    751290
+                                ],
+                                [
+                                    30,
+                                    440944
+                                ],
+                                [
+                                    31,
+                                    183173
+                                ],
+                                [
+                                    32,
+                                    63691
+                                ],
+                                [
+                                    33,
+                                    49420
+                                ],
+                                [
+                                    34,
+                                    37732
+                                ],
+                                [
+                                    35,
+                                    38930
+                                ],
+                                [
+                                    36,
+                                    54208
+                                ],
+                                [
+                                    37,
+                                    52855
+                                ],
+                                [
+                                    38,
+                                    69832
+                                ],
+                                [
+                                    39,
+                                    68397
+                                ],
+                                [
+                                    40,
+                                    92666
+                                ],
+                                [
+                                    41,
+                                    48390
+                                ],
+                                [
+                                    42,
+                                    19874
+                                ],
+                                [
+                                    43,
+                                    4114
+                                ],
+                                [
+                                    44,
+                                    3372
+                                ],
+                                [
+                                    45,
+                                    3308
+                                ],
+                                [
+                                    46,
+                                    2350
+                                ],
+                                [
+                                    47,
+                                    577
+                                ],
+                                [
+                                    48,
+                                    524
+                                ],
+                                [
+                                    49,
+                                    1718
+                                ],
+                                [
+                                    50,
+                                    4311
+                                ],
+                                [
+                                    51,
+                                    3751
+                                ]
+                            ],
+                            "color": "rgba(128,133,233,1)",
+                            "width": 2,
+                            "dash": null,
+                            "showlegend": true,
+                            "marker": null
+                        },
+                        {
+                            "name": "SRR12857080 - Adapter 1",
+                            "pairs": [
+                                [
+                                    1,
+                                    78642
+                                ],
+                                [
+                                    2,
+                                    31293
+                                ],
+                                [
+                                    3,
+                                    52185
+                                ],
+                                [
+                                    4,
+                                    30906
+                                ],
+                                [
+                                    5,
+                                    20609
+                                ],
+                                [
+                                    6,
+                                    36810
+                                ],
+                                [
+                                    7,
+                                    30704
+                                ],
+                                [
+                                    8,
+                                    27651
+                                ],
+                                [
+                                    9,
+                                    20694
+                                ],
+                                [
+                                    10,
+                                    21218
+                                ],
+                                [
+                                    11,
+                                    25668
+                                ],
+                                [
+                                    12,
+                                    36113
+                                ],
+                                [
+                                    13,
+                                    36296
+                                ],
+                                [
+                                    14,
+                                    37309
+                                ],
+                                [
+                                    15,
+                                    63119
+                                ],
+                                [
+                                    16,
+                                    134338
+                                ],
+                                [
+                                    17,
+                                    590060
+                                ],
+                                [
+                                    18,
+                                    1062608
+                                ],
+                                [
+                                    19,
+                                    1762907
+                                ],
+                                [
+                                    20,
+                                    552500
+                                ],
+                                [
+                                    21,
+                                    260855
+                                ],
+                                [
+                                    22,
+                                    210588
+                                ],
+                                [
+                                    23,
+                                    246847
+                                ],
+                                [
+                                    24,
+                                    302461
+                                ],
+                                [
+                                    25,
+                                    96802
+                                ],
+                                [
+                                    26,
+                                    109947
+                                ],
+                                [
+                                    27,
+                                    430111
+                                ],
+                                [
+                                    28,
+                                    708999
+                                ],
+                                [
+                                    29,
+                                    959893
+                                ],
+                                [
+                                    30,
+                                    327323
+                                ],
+                                [
+                                    31,
+                                    174600
+                                ],
+                                [
+                                    32,
+                                    99392
+                                ],
+                                [
+                                    33,
+                                    87823
+                                ],
+                                [
+                                    34,
+                                    99241
+                                ],
+                                [
+                                    35,
+                                    108922
+                                ],
+                                [
+                                    36,
+                                    109374
+                                ],
+                                [
+                                    37,
+                                    125544
+                                ],
+                                [
+                                    38,
+                                    156892
+                                ],
+                                [
+                                    39,
+                                    167551
+                                ],
+                                [
+                                    40,
+                                    180489
+                                ],
+                                [
+                                    41,
+                                    130640
+                                ],
+                                [
+                                    42,
+                                    144973
+                                ],
+                                [
+                                    43,
+                                    45576
+                                ],
+                                [
+                                    44,
+                                    61139
+                                ],
+                                [
+                                    45,
+                                    60615
+                                ],
+                                [
+                                    46,
+                                    35786
+                                ],
+                                [
+                                    47,
+                                    19024
+                                ],
+                                [
+                                    48,
+                                    4438
+                                ],
+                                [
+                                    49,
+                                    7363
+                                ],
+                                [
+                                    50,
+                                    26458
+                                ],
+                                [
+                                    51,
+                                    57258
+                                ]
+                            ],
+                            "color": "rgba(241,92,128,1)",
+                            "width": 2,
+                            "dash": null,
+                            "showlegend": true,
+                            "marker": null
+                        },
+                        {
+                            "name": "SRR12857081 - Adapter 1",
+                            "pairs": [
+                                [
+                                    1,
+                                    93485
+                                ],
+                                [
+                                    2,
+                                    40319
+                                ],
+                                [
+                                    3,
+                                    12041
+                                ],
+                                [
+                                    4,
+                                    10376
+                                ],
+                                [
+                                    5,
+                                    21619
+                                ],
+                                [
+                                    6,
+                                    94221
+                                ],
+                                [
+                                    7,
+                                    83222
+                                ],
+                                [
+                                    8,
+                                    46528
+                                ],
+                                [
+                                    9,
+                                    17633
+                                ],
+                                [
+                                    10,
+                                    14277
+                                ],
+                                [
+                                    11,
+                                    13818
+                                ],
+                                [
+                                    12,
+                                    17125
+                                ],
+                                [
+                                    13,
+                                    20000
+                                ],
+                                [
+                                    14,
+                                    23989
+                                ],
+                                [
+                                    15,
+                                    62456
+                                ],
+                                [
+                                    16,
+                                    178689
+                                ],
+                                [
+                                    17,
+                                    587709
+                                ],
+                                [
+                                    18,
+                                    1275283
+                                ],
+                                [
+                                    19,
+                                    3353637
+                                ],
+                                [
+                                    20,
+                                    780564
+                                ],
+                                [
+                                    21,
+                                    225471
+                                ],
+                                [
+                                    22,
+                                    90398
+                                ],
+                                [
+                                    23,
+                                    91396
+                                ],
+                                [
+                                    24,
+                                    57255
+                                ],
+                                [
+                                    25,
+                                    30615
+                                ],
+                                [
+                                    26,
+                                    47773
+                                ],
+                                [
+                                    27,
+                                    254984
+                                ],
+                                [
+                                    28,
+                                    612850
+                                ],
+                                [
+                                    29,
+                                    1268131
+                                ],
+                                [
+                                    30,
+                                    508827
+                                ],
+                                [
+                                    31,
+                                    186365
+                                ],
+                                [
+                                    32,
+                                    47736
+                                ],
+                                [
+                                    33,
+                                    29069
+                                ],
+                                [
+                                    34,
+                                    21551
+                                ],
+                                [
+                                    35,
+                                    25058
+                                ],
+                                [
+                                    36,
+                                    25068
+                                ],
+                                [
+                                    37,
+                                    28214
+                                ],
+                                [
+                                    38,
+                                    24131
+                                ],
+                                [
+                                    39,
+                                    29977
+                                ],
+                                [
+                                    40,
+                                    26943
+                                ],
+                                [
+                                    41,
+                                    18507
+                                ],
+                                [
+                                    42,
+                                    9998
+                                ],
+                                [
+                                    43,
+                                    1835
+                                ],
+                                [
+                                    44,
+                                    1025
+                                ],
+                                [
+                                    45,
+                                    624
+                                ],
+                                [
+                                    46,
+                                    728
+                                ],
+                                [
+                                    47,
+                                    249
+                                ],
+                                [
+                                    48,
+                                    210
+                                ],
+                                [
+                                    49,
+                                    718
+                                ],
+                                [
+                                    50,
+                                    1551
+                                ],
+                                [
+                                    51,
+                                    992
+                                ]
+                            ],
+                            "color": "rgba(228,211,84,1)",
+                            "width": 2,
+                            "dash": null,
+                            "showlegend": true,
+                            "marker": null
+                        },
+                        {
+                            "name": "SRR12857082 - Adapter 1",
+                            "pairs": [
+                                [
+                                    1,
+                                    47854
+                                ],
+                                [
+                                    2,
+                                    14451
+                                ],
+                                [
+                                    3,
+                                    8210
+                                ],
+                                [
+                                    4,
+                                    9291
+                                ],
+                                [
+                                    5,
+                                    17201
+                                ],
+                                [
+                                    6,
+                                    52776
+                                ],
+                                [
+                                    7,
+                                    42181
+                                ],
+                                [
+                                    8,
+                                    35581
+                                ],
+                                [
+                                    9,
+                                    25692
+                                ],
+                                [
+                                    10,
+                                    24758
+                                ],
+                                [
+                                    11,
+                                    30741
+                                ],
+                                [
+                                    12,
+                                    38629
+                                ],
+                                [
+                                    13,
+                                    35738
+                                ],
+                                [
+                                    14,
+                                    31198
+                                ],
+                                [
+                                    15,
+                                    70343
+                                ],
+                                [
+                                    16,
+                                    211153
+                                ],
+                                [
+                                    17,
+                                    1150191
+                                ],
+                                [
+                                    18,
+                                    494546
+                                ],
+                                [
+                                    19,
+                                    270674
+                                ],
+                                [
+                                    20,
+                                    99599
+                                ],
+                                [
+                                    21,
+                                    59077
+                                ],
+                                [
+                                    22,
+                                    86393
+                                ],
+                                [
+                                    23,
+                                    98581
+                                ],
+                                [
+                                    24,
+                                    66969
+                                ],
+                                [
+                                    25,
+                                    48433
+                                ],
+                                [
+                                    26,
+                                    118361
+                                ],
+                                [
+                                    27,
+                                    531387
+                                ],
+                                [
+                                    28,
+                                    1567563
+                                ],
+                                [
+                                    29,
+                                    1375405
+                                ],
+                                [
+                                    30,
+                                    562689
+                                ],
+                                [
+                                    31,
+                                    205693
+                                ],
+                                [
+                                    32,
+                                    90984
+                                ],
+                                [
+                                    33,
+                                    79398
+                                ],
+                                [
+                                    34,
+                                    76527
+                                ],
+                                [
+                                    35,
+                                    82029
+                                ],
+                                [
+                                    36,
+                                    91646
+                                ],
+                                [
+                                    37,
+                                    110245
+                                ],
+                                [
+                                    38,
+                                    169778
+                                ],
+                                [
+                                    39,
+                                    246446
+                                ],
+                                [
+                                    40,
+                                    222820
+                                ],
+                                [
+                                    41,
+                                    186087
+                                ],
+                                [
+                                    42,
+                                    121329
+                                ],
+                                [
+                                    43,
+                                    42011
+                                ],
+                                [
+                                    44,
+                                    22851
+                                ],
+                                [
+                                    45,
+                                    15475
+                                ],
+                                [
+                                    46,
+                                    26727
+                                ],
+                                [
+                                    47,
+                                    4664
+                                ],
+                                [
+                                    48,
+                                    3601
+                                ],
+                                [
+                                    49,
+                                    23497
+                                ],
+                                [
+                                    50,
+                                    25013
+                                ],
+                                [
+                                    51,
+                                    16822
+                                ]
+                            ],
+                            "color": "rgba(43,144,143,1)",
+                            "width": 2,
+                            "dash": null,
+                            "showlegend": true,
+                            "marker": null
+                        }
+                    ]
+                },
+                {
+                    "plot_id": "cutadapt_trimmed_sequences_plot_3",
+                    "label": "Obs/Exp",
+                    "uid": "cutadapt_trimmed_sequences_plot_3_Obs_Exp",
+                    "dconfig": {
+                        "name": "Obs/Exp",
+                        "ylab": "Observed / Expected",
+                        "title": "Cutadapt: Lengths of Trimmed Sequences (3' end)",
+                        "subtitle": "Obs/Exp, 8 samples"
+                    },
+                    "layout": {
+                        "title": {
+                            "text": "Cutadapt: Lengths of Trimmed Sequences (3' end)<br><sup>Obs/Exp, 8 samples</sup>"
+                        },
+                        "xaxis": {
+                            "hoverformat": null,
+                            "ticksuffix": " bp",
+                            "title": {
+                                "text": "Length Trimmed (bp)"
+                            },
+                            "rangemode": "normal",
+                            "autorangeoptions": {
+                                "clipmin": null,
+                                "clipmax": null,
+                                "minallowed": null,
+                                "maxallowed": null
+                            }
+                        },
+                        "yaxis": {
+                            "hoverformat": null,
+                            "ticksuffix": "",
+                            "title": {
+                                "text": "Observed / Expected"
+                            },
+                            "rangemode": "tozero",
+                            "autorangeoptions": {
+                                "clipmin": null,
+                                "clipmax": null,
+                                "minallowed": 0,
+                                "maxallowed": null
+                            }
+                        }
+                    },
+                    "trace_params": {
+                        "hovertemplate": "<b>%{text}</b><br><b>%{x} trimmed</b>: %{y:.0f}<extra></extra>",
+                        "mode": "lines",
+                        "line": {
+                            "width": 2
+                        }
+                    },
+                    "pct_range": {
+                        "xaxis": {
+                            "min": 0,
+                            "max": 100
+                        },
+                        "yaxis": {
+                            "min": 0,
+                            "max": 100
+                        }
+                    },
+                    "n_series": 8,
+                    "lines": [
+                        {
+                            "name": "SRR12857075 - Adapter 1",
+                            "pairs": [
+                                [
+                                    1,
+                                    0.0174146583418136
+                                ],
+                                [
+                                    2,
+                                    0.023390653185551665
+                                ],
+                                [
+                                    3,
+                                    0.0669944170017949
+                                ],
+                                [
+                                    4,
+                                    0.34967349857750935
+                                ],
+                                [
+                                    5,
+                                    2.7301912482980026
+                                ],
+                                [
+                                    6,
+                                    40.55963623644631
+                                ],
+                                [
+                                    7,
+                                    134.5452728362982
+                                ],
+                                [
+                                    8,
+                                    343.4452438049561
+                                ],
+                                [
+                                    9,
+                                    838.626198083067
+                                ],
+                                [
+                                    10,
+                                    3916.2820512820513
+                                ],
+                                [
+                                    11,
+                                    20204.0
+                                ],
+                                [
+                                    12,
+                                    97346.0
+                                ],
+                                [
+                                    13,
+                                    316300.0
+                                ],
+                                [
+                                    14,
+                                    287470.0
+                                ],
+                                [
+                                    15,
+                                    605920.0
+                                ],
+                                [
+                                    16,
+                                    1021610.0
+                                ],
+                                [
+                                    17,
+                                    1619960.0
+                                ],
+                                [
+                                    18,
+                                    3276310.0
+                                ],
+                                [
+                                    19,
+                                    3214620.0
+                                ],
+                                [
+                                    20,
+                                    1413100.0
+                                ],
+                                [
+                                    21,
+                                    718000.0
+                                ],
+                                [
+                                    22,
+                                    886590.0
+                                ],
+                                [
+                                    23,
+                                    955440.0
+                                ],
+                                [
+                                    24,
+                                    617980.0
+                                ],
+                                [
+                                    25,
+                                    407310.0
+                                ],
+                                [
+                                    26,
+                                    642910.0
+                                ],
+                                [
+                                    27,
+                                    2847260.0
+                                ],
+                                [
+                                    28,
+                                    6913330.0
+                                ],
+                                [
+                                    29,
+                                    22402230.0
+                                ],
+                                [
+                                    30,
+                                    6820030.0
+                                ],
+                                [
+                                    31,
+                                    2724540.0
+                                ],
+                                [
+                                    32,
+                                    1090790.0
+                                ],
+                                [
+                                    33,
+                                    973590.0
+                                ],
+                                [
+                                    34,
+                                    1057270.0
+                                ],
+                                [
+                                    35,
+                                    1288370.0
+                                ],
+                                [
+                                    36,
+                                    1683020.0
+                                ],
+                                [
+                                    37,
+                                    1186180.0
+                                ],
+                                [
+                                    38,
+                                    2137560.0
+                                ],
+                                [
+                                    39,
+                                    3015210.0
+                                ],
+                                [
+                                    40,
+                                    3050950.0
+                                ],
+                                [
+                                    41,
+                                    1646910.0
+                                ],
+                                [
+                                    42,
+                                    1171170.0
+                                ],
+                                [
+                                    43,
+                                    143220.0
+                                ],
+                                [
+                                    44,
+                                    354730.0
+                                ],
+                                [
+                                    45,
+                                    231150.0
+                                ],
+                                [
+                                    46,
+                                    57400.0
+                                ],
+                                [
+                                    47,
+                                    23470.0
+                                ],
+                                [
+                                    48,
+                                    7350.0
+                                ],
+                                [
+                                    49,
+                                    11970.0
+                                ],
+                                [
+                                    50,
+                                    55480.0
+                                ],
+                                [
+                                    51,
+                                    122740.0
+                                ]
+                            ],
+                            "color": "rgba(124,181,236,1)",
+                            "width": 2,
+                            "dash": null,
+                            "showlegend": true,
+                            "marker": null
+                        },
+                        {
+                            "name": "SRR12857076 - Adapter 1",
+                            "pairs": [
+                                [
+                                    1,
+                                    0.025581011223879648
+                                ],
+                                [
+                                    2,
+                                    0.028493546540613403
+                                ],
+                                [
+                                    3,
+                                    0.05545220377790498
+                                ],
+                                [
+                                    4,
+                                    0.40036375722436623
+                                ],
+                                [
+                                    5,
+                                    4.010007939878501
+                                ],
+                                [
+                                    6,
+                                    69.41797769406898
+                                ],
+                                [
+                                    7,
+                                    283.76366322008863
+                                ],
+                                [
+                                    8,
+                                    709.9763593380615
+                                ],
+                                [
+                                    9,
+                                    803.9622641509434
+                                ],
+                                [
+                                    10,
+                                    3160.0
+                                ],
+                                [
+                                    11,
+                                    15605.384615384615
+                                ],
+                                [
+                                    12,
+                                    99716.66666666667
+                                ],
+                                [
+                                    13,
+                                    266100.0
+                                ],
+                                [
+                                    14,
+                                    214180.0
+                                ],
+                                [
+                                    15,
+                                    314610.0
+                                ],
+                                [
+                                    16,
+                                    707060.0
+                                ],
+                                [
+                                    17,
+                                    1012510.0
+                                ],
+                                [
+                                    18,
+                                    1329800.0
+                                ],
+                                [
+                                    19,
+                                    1625800.0
+                                ],
+                                [
+                                    20,
+                                    907930.0
+                                ],
+                                [
+                                    21,
+                                    408350.0
+                                ],
+                                [
+                                    22,
+                                    476340.0
+                                ],
+                                [
+                                    23,
+                                    536450.0
+                                ],
+                                [
+                                    24,
+                                    398450.0
+                                ],
+                                [
+                                    25,
+                                    315780.0
+                                ],
+                                [
+                                    26,
+                                    633960.0
+                                ],
+                                [
+                                    27,
+                                    2434970.0
+                                ],
+                                [
+                                    28,
+                                    6825560.0
+                                ],
+                                [
+                                    29,
+                                    18137900.0
+                                ],
+                                [
+                                    30,
+                                    7403420.0
+                                ],
+                                [
+                                    31,
+                                    2453950.0
+                                ],
+                                [
+                                    32,
+                                    651970.0
+                                ],
+                                [
+                                    33,
+                                    482060.0
+                                ],
+                                [
+                                    34,
+                                    397940.0
+                                ],
+                                [
+                                    35,
+                                    344740.0
+                                ],
+                                [
+                                    36,
+                                    355210.0
+                                ],
+                                [
+                                    37,
+                                    344770.0
+                                ],
+                                [
+                                    38,
+                                    290220.0
+                                ],
+                                [
+                                    39,
+                                    328860.0
+                                ],
+                                [
+                                    40,
+                                    412500.0
+                                ],
+                                [
+                                    41,
+                                    181290.0
+                                ],
+                                [
+                                    42,
+                                    110510.0
+                                ],
+                                [
+                                    43,
+                                    15350.0
+                                ],
+                                [
+                                    44,
+                                    25040.0
+                                ],
+                                [
+                                    45,
+                                    15330.0
+                                ],
+                                [
+                                    46,
+                                    6210.0
+                                ],
+                                [
+                                    47,
+                                    10440.0
+                                ],
+                                [
+                                    48,
+                                    2720.0
+                                ],
+                                [
+                                    49,
+                                    3710.0
+                                ],
+                                [
+                                    50,
+                                    26750.0
+                                ],
+                                [
+                                    51,
+                                    82380.0
+                                ]
+                            ],
+                            "color": "rgba(67,67,72,1)",
+                            "width": 2,
+                            "dash": null,
+                            "showlegend": true,
+                            "marker": null
+                        },
+                        {
+                            "name": "SRR12857077 - Adapter 1",
+                            "pairs": [
+                                [
+                                    1,
+                                    0.026001803687005536
+                                ],
+                                [
+                                    2,
+                                    0.03424636185837274
+                                ],
+                                [
+                                    3,
+                                    0.08895360890476493
+                                ],
+                                [
+                                    4,
+                                    0.6149957396847651
+                                ],
+                                [
+                                    5,
+                                    5.929235819806675
+                                ],
+                                [
+                                    6,
+                                    101.76819259529455
+                                ],
+                                [
+                                    7,
+                                    306.37607149370785
+                                ],
+                                [
+                                    8,
+                                    773.1582786287382
+                                ],
+                                [
+                                    9,
+                                    988.8338192419826
+                                ],
+                                [
+                                    10,
+                                    3194.767441860465
+                                ],
+                                [
+                                    11,
+                                    13258.571428571428
+                                ],
+                                [
+                                    12,
+                                    82254.0
+                                ],
+                                [
+                                    13,
+                                    395020.0
+                                ],
+                                [
+                                    14,
+                                    369390.0
+                                ],
+                                [
+                                    15,
+                                    479890.0
+                                ],
+                                [
+                                    16,
+                                    888770.0
+                                ],
+                                [
+                                    17,
+                                    1270030.0
+                                ],
+                                [
+                                    18,
+                                    1531360.0
+                                ],
+                                [
+                                    19,
+                                    2282870.0
+                                ],
+                                [
+                                    20,
+                                    2053230.0
+                                ],
+                                [
+                                    21,
+                                    932190.0
+                                ],
+                                [
+                                    22,
+                                    801930.0
+                                ],
+                                [
+                                    23,
+                                    1099590.0
+                                ],
+                                [
+                                    24,
+                                    577210.0
+                                ],
+                                [
+                                    25,
+                                    312690.0
+                                ],
+                                [
+                                    26,
+                                    583290.0
+                                ],
+                                [
+                                    27,
+                                    3106490.0
+                                ],
+                                [
+                                    28,
+                                    9193990.0
+                                ],
+                                [
+                                    29,
+                                    36720200.0
+                                ],
+                                [
+                                    30,
+                                    9183220.0
+                                ],
+                                [
+                                    31,
+                                    3509350.0
+                                ],
+                                [
+                                    32,
+                                    848560.0
+                                ],
+                                [
+                                    33,
+                                    519570.0
+                                ],
+                                [
+                                    34,
+                                    447140.0
+                                ],
+                                [
+                                    35,
+                                    485700.0
+                                ],
+                                [
+                                    36,
+                                    433370.0
+                                ],
+                                [
+                                    37,
+                                    493860.0
+                                ],
+                                [
+                                    38,
+                                    526900.0
+                                ],
+                                [
+                                    39,
+                                    579530.0
+                                ],
+                                [
+                                    40,
+                                    507780.0
+                                ],
+                                [
+                                    41,
+                                    296400.0
+                                ],
+                                [
+                                    42,
+                                    146080.0
+                                ],
+                                [
+                                    43,
+                                    34270.0
+                                ],
+                                [
+                                    44,
+                                    14720.0
+                                ],
+                                [
+                                    45,
+                                    5090.0
+                                ],
+                                [
+                                    46,
+                                    4640.0
+                                ],
+                                [
+                                    47,
+                                    2160.0
+                                ],
+                                [
+                                    48,
+                                    2620.0
+                                ],
+                                [
+                                    49,
+                                    10890.0
+                                ],
+                                [
+                                    50,
+                                    26770.0
+                                ],
+                                [
+                                    51,
+                                    22840.0
+                                ]
+                            ],
+                            "color": "rgba(144,237,125,1)",
+                            "width": 2,
+                            "dash": null,
+                            "showlegend": true,
+                            "marker": null
+                        },
+                        {
+                            "name": "SRR12857078 - Adapter 1",
+                            "pairs": [
+                                [
+                                    1,
+                                    0.04055618963611061
+                                ],
+                                [
+                                    2,
+                                    0.06170058160325675
+                                ],
+                                [
+                                    3,
+                                    0.09305270666273781
+                                ],
+                                [
+                                    4,
+                                    0.5908537818075015
+                                ],
+                                [
+                                    5,
+                                    5.992279641750964
+                                ],
+                                [
+                                    6,
+                                    97.85413487946292
+                                ],
+                                [
+                                    7,
+                                    324.9365234375
+                                ],
+                                [
+                                    8,
+                                    869.794921875
+                                ],
+                                [
+                                    9,
+                                    1149.453125
+                                ],
+                                [
+                                    10,
+                                    3607.03125
+                                ],
+                                [
+                                    11,
+                                    14410.0
+                                ],
+                                [
+                                    12,
+                                    71367.5
+                                ],
+                                [
+                                    13,
+                                    321460.0
+                                ],
+                                [
+                                    14,
+                                    264520.0
+                                ],
+                                [
+                                    15,
+                                    556730.0
+                                ],
+                                [
+                                    16,
+                                    1551180.0
+                                ],
+                                [
+                                    17,
+                                    1568190.0
+                                ],
+                                [
+                                    18,
+                                    3266640.0
+                                ],
+                                [
+                                    19,
+                                    8862250.0
+                                ],
+                                [
+                                    20,
+                                    2331550.0
+                                ],
+                                [
+                                    21,
+                                    717530.0
+                                ],
+                                [
+                                    22,
+                                    509480.0
+                                ],
+                                [
+                                    23,
+                                    548310.0
+                                ],
+                                [
+                                    24,
+                                    323840.0
+                                ],
+                                [
+                                    25,
+                                    229030.0
+                                ],
+                                [
+                                    26,
+                                    468530.0
+                                ],
+                                [
+                                    27,
+                                    2097160.0
+                                ],
+                                [
+                                    28,
+                                    5051660.0
+                                ],
+                                [
+                                    29,
+                                    18693560.0
+                                ],
+                                [
+                                    30,
+                                    5580100.0
+                                ],
+                                [
+                                    31,
+                                    2664120.0
+                                ],
+                                [
+                                    32,
+                                    572070.0
+                                ],
+                                [
+                                    33,
+                                    384720.0
+                                ],
+                                [
+                                    34,
+                                    267440.0
+                                ],
+                                [
+                                    35,
+                                    272630.0
+                                ],
+                                [
+                                    36,
+                                    261090.0
+                                ],
+                                [
+                                    37,
+                                    304080.0
+                                ],
+                                [
+                                    38,
+                                    305910.0
+                                ],
+                                [
+                                    39,
+                                    354220.0
+                                ],
+                                [
+                                    40,
+                                    329470.0
+                                ],
+                                [
+                                    41,
+                                    181210.0
+                                ],
+                                [
+                                    42,
+                                    92470.0
+                                ],
+                                [
+                                    43,
+                                    18580.0
+                                ],
+                                [
+                                    44,
+                                    14570.0
+                                ],
+                                [
+                                    45,
+                                    9450.0
+                                ],
+                                [
+                                    46,
+                                    8490.0
+                                ],
+                                [
+                                    47,
+                                    4200.0
+                                ],
+                                [
+                                    48,
+                                    2360.0
+                                ],
+                                [
+                                    49,
+                                    5870.0
+                                ],
+                                [
+                                    50,
+                                    16030.0
+                                ],
+                                [
+                                    51,
+                                    17920.0
+                                ]
+                            ],
+                            "color": "rgba(247,163,92,1)",
+                            "width": 2,
+                            "dash": null,
+                            "showlegend": true,
+                            "marker": null
+                        },
+                        {
+                            "name": "SRR12857079 - Adapter 1",
+                            "pairs": [
+                                [
+                                    1,
+                                    0.042373769536645005
+                                ],
+                                [
+                                    2,
+                                    0.09500513812542355
+                                ],
+                                [
+                                    3,
+                                    0.47696733839193783
+                                ],
+                                [
+                                    4,
+                                    1.5295174268068428
+                                ],
+                                [
+                                    5,
+                                    6.317799934061687
+                                ],
+                                [
+                                    6,
+                                    64.80445657116871
+                                ],
+                                [
+                                    7,
+                                    249.33248453983268
+                                ],
+                                [
+                                    8,
+                                    628.0494905385735
+                                ],
+                                [
+                                    9,
+                                    1029.6802325581396
+                                ],
+                                [
+                                    10,
+                                    3727.4418604651164
+                                ],
+                                [
+                                    11,
+                                    16140.95238095238
+                                ],
+                                [
+                                    12,
+                                    89870.0
+                                ],
+                                [
+                                    13,
+                                    402800.0
+                                ],
+                                [
+                                    14,
+                                    416420.0
+                                ],
+                                [
+                                    15,
+                                    510400.0
+                                ],
+                                [
+                                    16,
+                                    949020.0
+                                ],
+                                [
+                                    17,
+                                    3359430.0
+                                ],
+                                [
+                                    18,
+                                    9869200.0
+                                ],
+                                [
+                                    19,
+                                    17644300.0
+                                ],
+                                [
+                                    20,
+                                    4964730.0
+                                ],
+                                [
+                                    21,
+                                    2029530.0
+                                ],
+                                [
+                                    22,
+                                    1693360.0
+                                ],
+                                [
+                                    23,
+                                    2923070.0
+                                ],
+                                [
+                                    24,
+                                    2511960.0
+                                ],
+                                [
+                                    25,
+                                    841160.0
+                                ],
+                                [
+                                    26,
+                                    787060.0
+                                ],
+                                [
+                                    27,
+                                    1913960.0
+                                ],
+                                [
+                                    28,
+                                    6612100.0
+                                ],
+                                [
+                                    29,
+                                    7512900.0
+                                ],
+                                [
+                                    30,
+                                    4409440.0
+                                ],
+                                [
+                                    31,
+                                    1831730.0
+                                ],
+                                [
+                                    32,
+                                    636910.0
+                                ],
+                                [
+                                    33,
+                                    494200.0
+                                ],
+                                [
+                                    34,
+                                    377320.0
+                                ],
+                                [
+                                    35,
+                                    389300.0
+                                ],
+                                [
+                                    36,
+                                    542080.0
+                                ],
+                                [
+                                    37,
+                                    528550.0
+                                ],
+                                [
+                                    38,
+                                    698320.0
+                                ],
+                                [
+                                    39,
+                                    683970.0
+                                ],
+                                [
+                                    40,
+                                    926660.0
+                                ],
+                                [
+                                    41,
+                                    483900.0
+                                ],
+                                [
+                                    42,
+                                    198740.0
+                                ],
+                                [
+                                    43,
+                                    41140.0
+                                ],
+                                [
+                                    44,
+                                    33720.0
+                                ],
+                                [
+                                    45,
+                                    33080.0
+                                ],
+                                [
+                                    46,
+                                    23500.0
+                                ],
+                                [
+                                    47,
+                                    5770.0
+                                ],
+                                [
+                                    48,
+                                    5240.0
+                                ],
+                                [
+                                    49,
+                                    17180.0
+                                ],
+                                [
+                                    50,
+                                    43110.0
+                                ],
+                                [
+                                    51,
+                                    37510.0
+                                ]
+                            ],
+                            "color": "rgba(128,133,233,1)",
+                            "width": 2,
+                            "dash": null,
+                            "showlegend": true,
+                            "marker": null
+                        },
+                        {
+                            "name": "SRR12857080 - Adapter 1",
+                            "pairs": [
+                                [
+                                    1,
+                                    0.030060622369786325
+                                ],
+                                [
+                                    2,
+                                    0.04784654611328804
+                                ],
+                                [
+                                    3,
+                                    0.31916045235956114
+                                ],
+                                [
+                                    4,
+                                    0.7560767966181305
+                                ],
+                                [
+                                    5,
+                                    2.016694066071708
+                                ],
+                                [
+                                    6,
+                                    14.408172851103803
+                                ],
+                                [
+                                    7,
+                                    48.07264756536715
+                                ],
+                                [
+                                    8,
+                                    173.14339386349405
+                                ],
+                                [
+                                    9,
+                                    518.6466165413534
+                                ],
+                                [
+                                    10,
+                                    2121.8
+                                ],
+                                [
+                                    11,
+                                    10267.2
+                                ],
+                                [
+                                    12,
+                                    60188.333333333336
+                                ],
+                                [
+                                    13,
+                                    181480.0
+                                ],
+                                [
+                                    14,
+                                    186545.0
+                                ],
+                                [
+                                    15,
+                                    315595.0
+                                ],
+                                [
+                                    16,
+                                    671690.0
+                                ],
+                                [
+                                    17,
+                                    2950300.0
+                                ],
+                                [
+                                    18,
+                                    5313040.0
+                                ],
+                                [
+                                    19,
+                                    8814535.0
+                                ],
+                                [
+                                    20,
+                                    2762500.0
+                                ],
+                                [
+                                    21,
+                                    1304275.0
+                                ],
+                                [
+                                    22,
+                                    1052940.0
+                                ],
+                                [
+                                    23,
+                                    1234235.0
+                                ],
+                                [
+                                    24,
+                                    1512305.0
+                                ],
+                                [
+                                    25,
+                                    484010.0
+                                ],
+                                [
+                                    26,
+                                    549735.0
+                                ],
+                                [
+                                    27,
+                                    2150555.0
+                                ],
+                                [
+                                    28,
+                                    3544995.0
+                                ],
+                                [
+                                    29,
+                                    4799465.0
+                                ],
+                                [
+                                    30,
+                                    1636615.0
+                                ],
+                                [
+                                    31,
+                                    873000.0
+                                ],
+                                [
+                                    32,
+                                    496960.0
+                                ],
+                                [
+                                    33,
+                                    439115.0
+                                ],
+                                [
+                                    34,
+                                    496205.0
+                                ],
+                                [
+                                    35,
+                                    544610.0
+                                ],
+                                [
+                                    36,
+                                    546870.0
+                                ],
+                                [
+                                    37,
+                                    627720.0
+                                ],
+                                [
+                                    38,
+                                    784460.0
+                                ],
+                                [
+                                    39,
+                                    837755.0
+                                ],
+                                [
+                                    40,
+                                    902445.0
+                                ],
+                                [
+                                    41,
+                                    653200.0
+                                ],
+                                [
+                                    42,
+                                    724865.0
+                                ],
+                                [
+                                    43,
+                                    227880.0
+                                ],
+                                [
+                                    44,
+                                    305695.0
+                                ],
+                                [
+                                    45,
+                                    303075.0
+                                ],
+                                [
+                                    46,
+                                    178930.0
+                                ],
+                                [
+                                    47,
+                                    95120.0
+                                ],
+                                [
+                                    48,
+                                    22190.0
+                                ],
+                                [
+                                    49,
+                                    36815.0
+                                ],
+                                [
+                                    50,
+                                    132290.0
+                                ],
+                                [
+                                    51,
+                                    286290.0
+                                ]
+                            ],
+                            "color": "rgba(241,92,128,1)",
+                            "width": 2,
+                            "dash": null,
+                            "showlegend": true,
+                            "marker": null
+                        },
+                        {
+                            "name": "SRR12857081 - Adapter 1",
+                            "pairs": [
+                                [
+                                    1,
+                                    0.03486614845143354
+                                ],
+                                [
+                                    2,
+                                    0.060149467376085966
+                                ],
+                                [
+                                    3,
+                                    0.07185293570054375
+                                ],
+                                [
+                                    4,
+                                    0.24766915067813036
+                                ],
+                                [
+                                    5,
+                                    2.0641422242590894
+                                ],
+                                [
+                                    6,
+                                    35.98418881759853
+                                ],
+                                [
+                                    7,
+                                    127.13412771157958
+                                ],
+                                [
+                                    8,
+                                    284.22724496029326
+                                ],
+                                [
+                                    9,
+                                    431.1246943765281
+                                ],
+                                [
+                                    10,
+                                    1399.7058823529412
+                                ],
+                                [
+                                    11,
+                                    5314.615384615385
+                                ],
+                                [
+                                    12,
+                                    28541.666666666668
+                                ],
+                                [
+                                    13,
+                                    100000.0
+                                ],
+                                [
+                                    14,
+                                    119945.0
+                                ],
+                                [
+                                    15,
+                                    312280.0
+                                ],
+                                [
+                                    16,
+                                    893445.0
+                                ],
+                                [
+                                    17,
+                                    2938545.0
+                                ],
+                                [
+                                    18,
+                                    6376415.0
+                                ],
+                                [
+                                    19,
+                                    16768185.0
+                                ],
+                                [
+                                    20,
+                                    3902820.0
+                                ],
+                                [
+                                    21,
+                                    1127355.0
+                                ],
+                                [
+                                    22,
+                                    451990.0
+                                ],
+                                [
+                                    23,
+                                    456980.0
+                                ],
+                                [
+                                    24,
+                                    286275.0
+                                ],
+                                [
+                                    25,
+                                    153075.0
+                                ],
+                                [
+                                    26,
+                                    238865.0
+                                ],
+                                [
+                                    27,
+                                    1274920.0
+                                ],
+                                [
+                                    28,
+                                    3064250.0
+                                ],
+                                [
+                                    29,
+                                    6340655.0
+                                ],
+                                [
+                                    30,
+                                    2544135.0
+                                ],
+                                [
+                                    31,
+                                    931825.0
+                                ],
+                                [
+                                    32,
+                                    238680.0
+                                ],
+                                [
+                                    33,
+                                    145345.0
+                                ],
+                                [
+                                    34,
+                                    107755.0
+                                ],
+                                [
+                                    35,
+                                    125290.0
+                                ],
+                                [
+                                    36,
+                                    125340.0
+                                ],
+                                [
+                                    37,
+                                    141070.0
+                                ],
+                                [
+                                    38,
+                                    120655.0
+                                ],
+                                [
+                                    39,
+                                    149885.0
+                                ],
+                                [
+                                    40,
+                                    134715.0
+                                ],
+                                [
+                                    41,
+                                    92535.0
+                                ],
+                                [
+                                    42,
+                                    49990.0
+                                ],
+                                [
+                                    43,
+                                    9175.0
+                                ],
+                                [
+                                    44,
+                                    5125.0
+                                ],
+                                [
+                                    45,
+                                    3120.0
+                                ],
+                                [
+                                    46,
+                                    3640.0
+                                ],
+                                [
+                                    47,
+                                    1245.0
+                                ],
+                                [
+                                    48,
+                                    1050.0
+                                ],
+                                [
+                                    49,
+                                    3590.0
+                                ],
+                                [
+                                    50,
+                                    7755.0
+                                ],
+                                [
+                                    51,
+                                    4960.0
+                                ]
+                            ],
+                            "color": "rgba(228,211,84,1)",
+                            "width": 2,
+                            "dash": null,
+                            "showlegend": true,
+                            "marker": null
+                        },
+                        {
+                            "name": "SRR12857082 - Adapter 1",
+                            "pairs": [
+                                [
+                                    1,
+                                    0.020601358715013174
+                                ],
+                                [
+                                    2,
+                                    0.024884878806972315
+                                ],
+                                [
+                                    3,
+                                    0.05655107333386142
+                                ],
+                                [
+                                    4,
+                                    0.2559884941561555
+                                ],
+                                [
+                                    5,
+                                    1.8956985573690996
+                                ],
+                                [
+                                    6,
+                                    23.26573796508552
+                                ],
+                                [
+                                    7,
+                                    74.38017986245812
+                                ],
+                                [
+                                    8,
+                                    250.92383638928067
+                                ],
+                                [
+                                    9,
+                                    725.7627118644068
+                                ],
+                                [
+                                    10,
+                                    2781.7977528089887
+                                ],
+                                [
+                                    11,
+                                    13973.181818181816
+                                ],
+                                [
+                                    12,
+                                    64381.66666666667
+                                ],
+                                [
+                                    13,
+                                    357380.0
+                                ],
+                                [
+                                    14,
+                                    311980.0
+                                ],
+                                [
+                                    15,
+                                    703430.0
+                                ],
+                                [
+                                    16,
+                                    2111530.0
+                                ],
+                                [
+                                    17,
+                                    11501910.0
+                                ],
+                                [
+                                    18,
+                                    4945460.0
+                                ],
+                                [
+                                    19,
+                                    2706740.0
+                                ],
+                                [
+                                    20,
+                                    995990.0
+                                ],
+                                [
+                                    21,
+                                    590770.0
+                                ],
+                                [
+                                    22,
+                                    863930.0
+                                ],
+                                [
+                                    23,
+                                    985810.0
+                                ],
+                                [
+                                    24,
+                                    669690.0
+                                ],
+                                [
+                                    25,
+                                    484330.0
+                                ],
+                                [
+                                    26,
+                                    1183610.0
+                                ],
+                                [
+                                    27,
+                                    5313870.0
+                                ],
+                                [
+                                    28,
+                                    15675630.0
+                                ],
+                                [
+                                    29,
+                                    13754050.0
+                                ],
+                                [
+                                    30,
+                                    5626890.0
+                                ],
+                                [
+                                    31,
+                                    2056930.0
+                                ],
+                                [
+                                    32,
+                                    909840.0
+                                ],
+                                [
+                                    33,
+                                    793980.0
+                                ],
+                                [
+                                    34,
+                                    765270.0
+                                ],
+                                [
+                                    35,
+                                    820290.0
+                                ],
+                                [
+                                    36,
+                                    916460.0
+                                ],
+                                [
+                                    37,
+                                    1102450.0
+                                ],
+                                [
+                                    38,
+                                    1697780.0
+                                ],
+                                [
+                                    39,
+                                    2464460.0
+                                ],
+                                [
+                                    40,
+                                    2228200.0
+                                ],
+                                [
+                                    41,
+                                    1860870.0
+                                ],
+                                [
+                                    42,
+                                    1213290.0
+                                ],
+                                [
+                                    43,
+                                    420110.0
+                                ],
+                                [
+                                    44,
+                                    228510.0
+                                ],
+                                [
+                                    45,
+                                    154750.0
+                                ],
+                                [
+                                    46,
+                                    267270.0
+                                ],
+                                [
+                                    47,
+                                    46640.0
+                                ],
+                                [
+                                    48,
+                                    36010.0
+                                ],
+                                [
+                                    49,
+                                    234970.0
+                                ],
+                                [
+                                    50,
+                                    250130.0
+                                ],
+                                [
+                                    51,
+                                    168220.0
+                                ]
+                            ],
+                            "color": "rgba(43,144,143,1)",
+                            "width": 2,
+                            "dash": null,
+                            "showlegend": true,
+                            "marker": null
+                        }
+                    ]
+                }
+            ],
+            "pconfig": {
+                "id": "cutadapt_trimmed_sequences_plot_3",
+                "title": "Cutadapt: Lengths of Trimmed Sequences (3' end)",
+                "subtitle": null,
+                "anchor": null,
+                "table_title": null,
+                "height": null,
+                "width": null,
+                "square": false,
+                "logswitch": false,
+                "logswitch_active": false,
+                "logswitch_label": "Log10",
+                "cpswitch": true,
+                "cpswitch_c_active": true,
+                "cpswitch_counts_label": "Counts",
+                "cpswitch_percent_label": "Percentages",
+                "xLog": null,
+                "yLog": null,
+                "xlog": false,
+                "ylog": false,
+                "data_labels": [
+                    {
+                        "name": "Counts",
+                        "ylab": "Count",
+                        "title": "Cutadapt: Lengths of Trimmed Sequences (3' end)",
+                        "subtitle": "Counts, 8 samples"
+                    },
+                    {
+                        "name": "Obs/Exp",
+                        "ylab": "Observed / Expected",
+                        "title": "Cutadapt: Lengths of Trimmed Sequences (3' end)",
+                        "subtitle": "Obs/Exp, 8 samples"
+                    }
+                ],
+                "xTitle": null,
+                "yTitle": null,
+                "xlab": "Length Trimmed (bp)",
+                "ylab": "Counts",
+                "xsuffix": " bp",
+                "ysuffix": null,
+                "tt_suffix": null,
+                "xLabFormat": null,
+                "yLabFormat": null,
+                "xLabelFormat": null,
+                "yLabelFormat": null,
+                "xlab_format": null,
+                "ylab_format": null,
+                "tt_label": "<b>{point.x} bp trimmed</b>: {point.y:.0f}",
+                "xDecimals": null,
+                "yDecimals": null,
+                "decimalPlaces": null,
+                "x_decimals": null,
+                "y_decimals": null,
+                "tt_decimals": null,
+                "xmin": null,
+                "xmax": null,
+                "ymin": 0,
+                "ymax": null,
+                "xFloor": null,
+                "xCeiling": null,
+                "yFloor": null,
+                "yCeiling": null,
+                "x_clipmin": null,
+                "x_clipmax": null,
+                "y_clipmin": null,
+                "y_clipmax": null,
+                "save_data_file": true,
+                "showlegend": null,
+                "xMinRange": null,
+                "yMinRange": null,
+                "x_minrange": null,
+                "y_minrange": null,
+                "xPlotBands": null,
+                "yPlotBands": null,
+                "xPlotLines": null,
+                "yPlotLines": null,
+                "x_bands": null,
+                "y_bands": null,
+                "x_lines": null,
+                "y_lines": null,
+                "series_label": "samples",
+                "categories": false,
+                "smooth_points": 500,
+                "smooth_points_sumcounts": null,
+                "extra_series": null,
+                "style": null,
+                "hide_empty": true,
+                "colors": {}
+            },
+            "add_log_tab": false,
+            "add_pct_tab": false,
+            "l_active": false,
+            "p_active": false,
+            "pct_axis_update": {
+                "ticksuffix": "%",
+                "hoverformat": ".1f"
+            },
+            "axis_controlled_by_switches": [
+                "yaxis"
+            ],
+            "square": false,
+            "flat": false,
+            "defer_render": false,
+            "section_anchor": null,
+            "module_anchor": null,
+            "sample_names": [
+                "SRR12857075 - Adapter 1",
+                "SRR12857076 - Adapter 1",
+                "SRR12857077 - Adapter 1",
+                "SRR12857078 - Adapter 1",
+                "SRR12857079 - Adapter 1",
+                "SRR12857080 - Adapter 1",
+                "SRR12857081 - Adapter 1",
+                "SRR12857082 - Adapter 1"
+            ]
+        },
+        "general_stats_table": {
+            "id": "general_stats_table",
+            "anchor": "general_stats_table",
+            "plot_type": "violin plot",
+            "layout": {
+                "autosize": true,
+                "height": 500,
+                "hoverlabel": {
+                    "namelength": -1
+                },
+                "margin": {
+                    "b": 40,
+                    "l": 60,
+                    "pad": 0,
+                    "r": 15,
+                    "t": 50
+                },
+                "showlegend": false,
+                "template": {
+                    "layout": {
+                        "colorway": [
+                            "#7cb5ec",
+                            "#434348",
+                            "#90ed7d",
+                            "#f7a35c",
+                            "#8085e9",
+                            "#f15c80",
+                            "#e4d354",
+                            "#2b908f",
+                            "#f45b5b",
+                            "#91e8e1"
+                        ],
+                        "font": {
+                            "family": "'Lucida Grande', 'Open Sans', verdana, arial, sans-serif"
+                        },
+                        "modebar": {
+                            "activecolor": "rgba(0, 0, 0, 1)",
+                            "bgcolor": "rgba(0, 0, 0, 0)",
+                            "color": "rgba(0, 0, 0, 0.5)"
+                        },
+                        "paper_bgcolor": "white",
+                        "plot_bgcolor": "white",
+                        "title": {
+                            "font": {
+                                "size": 20
+                            }
+                        },
+                        "xaxis": {
+                            "color": "rgba(0,0,0,0.3)",
+                            "gridcolor": "rgba(0,0,0,0.05)",
+                            "tickfont": {
+                                "color": "rgba(0,0,0,1)",
+                                "size": 10
+                            },
+                            "zerolinecolor": "rgba(0,0,0,0.05)"
+                        },
+                        "yaxis": {
+                            "color": "rgba(0,0,0,0.3)",
+                            "gridcolor": "rgba(0,0,0,0.05)",
+                            "tickfont": {
+                                "color": "rgba(0,0,0,1)",
+                                "size": 10
+                            },
+                            "zerolinecolor": "rgba(0,0,0,0.05)"
+                        }
+                    }
+                },
+                "title": {
+                    "text": "General Statistics",
+                    "x": 0.5,
+                    "xanchor": "center"
+                },
+                "xaxis": {
+                    "automargin": false,
+                    "tickfont": {
+                        "size": 9,
+                        "color": "rgba(0,0,0,0.5)"
+                    },
+                    "gridcolor": "rgba(0,0,0,0.1)",
+                    "zerolinecolor": "rgba(0,0,0,0.1)"
+                },
+                "yaxis": {
+                    "automargin": true,
+                    "tickfont": {
+                        "size": 9,
+                        "color": "rgba(0,0,0,0.5)"
+                    },
+                    "gridcolor": "rgba(0,0,0,0.1)",
+                    "zerolinecolor": "rgba(0,0,0,0.1)"
+                },
+                "violingap": 0,
+                "grid": {
+                    "columns": 1,
+                    "roworder": "top to bottom",
+                    "ygap": 0.4
+                }
+            },
+            "datasets": [
+                {
+                    "plot_id": "general_stats_table",
+                    "label": "1",
+                    "uid": "general_stats_table",
+                    "dconfig": {
+                        "ylab": "",
+                        "title": "General Statistics",
+                        "subtitle": "8 samples"
+                    },
+                    "layout": {
+                        "title": {
+                            "text": "General Statistics<br><sup>8 samples</sup>"
+                        },
+                        "xaxis": {
+                            "hoverformat": null,
+                            "ticksuffix": "",
+                            "title": {
+                                "text": null
+                            },
+                            "rangemode": "normal",
+                            "autorangeoptions": {
+                                "clipmin": null,
+                                "clipmax": null,
+                                "minallowed": null,
+                                "maxallowed": null
+                            }
+                        },
+                        "yaxis": {
+                            "hoverformat": null,
+                            "ticksuffix": "",
+                            "title": {
+                                "text": ""
+                            },
+                            "rangemode": "normal",
+                            "autorangeoptions": {
+                                "clipmin": null,
+                                "clipmax": null,
+                                "minallowed": null,
+                                "maxallowed": null
+                            }
+                        }
+                    },
+                    "trace_params": {
+                        "hovertemplate": "<b>%{text}</b>: %{x}<extra></extra>",
+                        "orientation": "h",
+                        "box": {
+                            "visible": true
+                        },
+                        "meanline": {
+                            "visible": true
+                        },
+                        "fillcolor": "#b5b5b5",
+                        "line": {
+                            "width": 2,
+                            "color": "#b5b5b5"
+                        },
+                        "opacity": 0.5,
+                        "points": false,
+                        "hoveron": "points"
+                    },
+                    "pct_range": {
+                        "xaxis": {
+                            "min": 0,
+                            "max": 100
+                        },
+                        "yaxis": {
+                            "min": 0,
+                            "max": 100
+                        }
+                    },
+                    "n_series": 8,
+                    "metrics": [
+                        "cutadapt-percent_trimmed"
+                    ],
+                    "header_by_metric": {
+                        "cutadapt-percent_trimmed": {
+                            "title": "Trimmed bases",
+                            "description": "% total base pairs trimmed",
+                            "suffix": "%",
+                            "dmin": 0.0,
+                            "dmax": 100.0,
+                            "hidden": false,
+                            "xaxis": {
+                                "ticksuffix": "%",
+                                "tickvals": null,
+                                "range": [
+                                    -0.5,
+                                    100.5025
+                                ]
+                            },
+                            "show_only_outliers": false,
+                            "show_points": true,
+                            "namespace": "Cutadapt",
+                            "color": null,
+                            "hoverformat": ".2f"
+                        }
+                    },
+                    "violin_value_by_sample_by_metric": {
+                        "cutadapt-percent_trimmed": {
+                            "SRR12857075": 55.01552725924769,
+                            "SRR12857076": 51.08445203214957,
+                            "SRR12857077": 50.56519478622986,
+                            "SRR12857078": 45.95715126879315,
+                            "SRR12857079": 41.15850190872648,
+                            "SRR12857080": 47.32549080617369,
+                            "SRR12857081": 41.244464636440156,
+                            "SRR12857082": 51.20455602156815
+                        }
+                    },
+                    "scatter_value_by_sample_by_metric": {
+                        "cutadapt-percent_trimmed": {}
+                    },
+                    "all_samples": [
+                        "SRR12857075",
+                        "SRR12857076",
+                        "SRR12857077",
+                        "SRR12857078",
+                        "SRR12857079",
+                        "SRR12857080",
+                        "SRR12857081",
+                        "SRR12857082"
+                    ],
+                    "scatter_trace_params": {
+                        "mode": "markers",
+                        "marker": {
+                            "size": 4,
+                            "color": "#0b79e6"
+                        },
+                        "showlegend": false,
+                        "hovertemplate": "<b>%{text}</b>: %{x}<extra></extra>",
+                        "hoverlabel": {
+                            "bgcolor": "white"
+                        }
+                    },
+                    "dt": {
+                        "id": "general_stats_table",
+                        "anchor": "general_stats_table_table",
+                        "pconfig": {
+                            "id": "general_stats_table",
+                            "title": "General Statistics",
+                            "subtitle": null,
+                            "anchor": null,
+                            "table_title": null,
+                            "height": null,
+                            "width": null,
+                            "square": false,
+                            "logswitch": false,
+                            "logswitch_active": false,
+                            "logswitch_label": "Log10",
+                            "cpswitch": true,
+                            "cpswitch_c_active": true,
+                            "cpswitch_counts_label": "Counts",
+                            "cpswitch_percent_label": "Percentages",
+                            "xLog": null,
+                            "yLog": null,
+                            "xlog": false,
+                            "ylog": false,
+                            "data_labels": [],
+                            "xTitle": null,
+                            "yTitle": null,
+                            "xlab": null,
+                            "ylab": null,
+                            "xsuffix": null,
+                            "ysuffix": null,
+                            "tt_suffix": null,
+                            "xLabFormat": null,
+                            "yLabFormat": null,
+                            "xLabelFormat": null,
+                            "yLabelFormat": null,
+                            "xlab_format": null,
+                            "ylab_format": null,
+                            "tt_label": null,
+                            "xDecimals": null,
+                            "yDecimals": null,
+                            "decimalPlaces": null,
+                            "x_decimals": null,
+                            "y_decimals": null,
+                            "tt_decimals": null,
+                            "xmin": null,
+                            "xmax": null,
+                            "ymin": null,
+                            "ymax": null,
+                            "xFloor": null,
+                            "xCeiling": null,
+                            "yFloor": null,
+                            "yCeiling": null,
+                            "x_clipmin": null,
+                            "x_clipmax": null,
+                            "y_clipmin": null,
+                            "y_clipmax": null,
+                            "save_data_file": true,
+                            "showlegend": null,
+                            "xMinRange": null,
+                            "yMinRange": null,
+                            "x_minrange": null,
+                            "y_minrange": null,
+                            "xPlotBands": null,
+                            "yPlotBands": null,
+                            "xPlotLines": null,
+                            "yPlotLines": null,
+                            "x_bands": null,
+                            "y_bands": null,
+                            "x_lines": null,
+                            "y_lines": null,
+                            "series_label": "samples",
+                            "namespace": "",
+                            "save_file": true,
+                            "raw_data_fn": "multiqc_general_stats",
+                            "defaultsort": null,
+                            "sortRows": true,
+                            "sort_rows": true,
+                            "only_defined_headers": true,
+                            "col1_header": "Sample Name",
+                            "no_beeswarm": false,
+                            "no_violin": false,
+                            "scale": "GnBu",
+                            "min": null,
+                            "parse_numeric": true,
+                            "rows_are_samples": true
+                        },
+                        "section_by_id": {
+                            "cutadapt": {
+                                "column_by_key": {
+                                    "percent_trimmed": {
+                                        "rid": "cutadapt-percent_trimmed",
+                                        "clean_rid": "cutadapt-percent_trimmed",
+                                        "title": "Trimmed bases",
+                                        "description": "% total base pairs trimmed",
+                                        "scale": "RdYlBu-rev",
+                                        "hidden": false,
+                                        "placement": 1000.0,
+                                        "namespace": "Cutadapt",
+                                        "colour": null,
+                                        "color": null,
+                                        "max": 100.0,
+                                        "dmax": 100.0,
+                                        "min": 0.0,
+                                        "dmin": 0.0,
+                                        "ceiling": null,
+                                        "floor": null,
+                                        "minRange": null,
+                                        "minrange": null,
+                                        "shared_key": null,
+                                        "tt_decimals": null,
+                                        "suffix": "%",
+                                        "cond_formatting_colours": [
+                                            {
+                                                "blue": "#337ab7"
+                                            },
+                                            {
+                                                "lbue": "#5bc0de"
+                                            },
+                                            {
+                                                "pass": "#5cb85c"
+                                            },
+                                            {
+                                                "warn": "#f0ad4e"
+                                            },
+                                            {
+                                                "fail": "#d9534f"
+                                            },
+                                            {
+                                                "male": "#5bc0de"
+                                            },
+                                            {
+                                                "female": "#d9534f"
+                                            }
+                                        ],
+                                        "cond_formatting_rules": {},
+                                        "bgcols": {},
+                                        "bars_zero_centrepoint": false,
+                                        "modify": null,
+                                        "format": null
+                                    }
+                                },
+                                "rows_by_sgroup": {
+                                    "SRR12857075": [
+                                        {
+                                            "sample": "SRR12857075",
+                                            "data": {
+                                                "percent_trimmed": {
+                                                    "raw": 55.01552725924769,
+                                                    "mod": 55.01552725924769,
+                                                    "fmt": "55.0"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "SRR12857076": [
+                                        {
+                                            "sample": "SRR12857076",
+                                            "data": {
+                                                "percent_trimmed": {
+                                                    "raw": 51.08445203214957,
+                                                    "mod": 51.08445203214957,
+                                                    "fmt": "51.1"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "SRR12857077": [
+                                        {
+                                            "sample": "SRR12857077",
+                                            "data": {
+                                                "percent_trimmed": {
+                                                    "raw": 50.56519478622986,
+                                                    "mod": 50.56519478622986,
+                                                    "fmt": "50.6"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "SRR12857078": [
+                                        {
+                                            "sample": "SRR12857078",
+                                            "data": {
+                                                "percent_trimmed": {
+                                                    "raw": 45.95715126879315,
+                                                    "mod": 45.95715126879315,
+                                                    "fmt": "46.0"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "SRR12857079": [
+                                        {
+                                            "sample": "SRR12857079",
+                                            "data": {
+                                                "percent_trimmed": {
+                                                    "raw": 41.15850190872648,
+                                                    "mod": 41.15850190872648,
+                                                    "fmt": "41.2"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "SRR12857080": [
+                                        {
+                                            "sample": "SRR12857080",
+                                            "data": {
+                                                "percent_trimmed": {
+                                                    "raw": 47.32549080617369,
+                                                    "mod": 47.32549080617369,
+                                                    "fmt": "47.3"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "SRR12857081": [
+                                        {
+                                            "sample": "SRR12857081",
+                                            "data": {
+                                                "percent_trimmed": {
+                                                    "raw": 41.244464636440156,
+                                                    "mod": 41.244464636440156,
+                                                    "fmt": "41.2"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "SRR12857082": [
+                                        {
+                                            "sample": "SRR12857082",
+                                            "data": {
+                                                "percent_trimmed": {
+                                                    "raw": 51.20455602156815,
+                                                    "mod": 51.20455602156815,
+                                                    "fmt": "51.2"
+                                                }
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        "headers_in_order": {
+                            "1000.0": [
+                                [
+                                    0,
+                                    "percent_trimmed"
+                                ]
+                            ]
+                        }
+                    },
+                    "show_table_by_default": true,
+                    "is_downsampled": false
+                }
+            ],
+            "pconfig": {
+                "id": "general_stats_table",
+                "title": "General Statistics",
+                "subtitle": null,
+                "anchor": null,
+                "table_title": null,
+                "height": null,
+                "width": null,
+                "square": false,
+                "logswitch": false,
+                "logswitch_active": false,
+                "logswitch_label": "Log10",
+                "cpswitch": true,
+                "cpswitch_c_active": true,
+                "cpswitch_counts_label": "Counts",
+                "cpswitch_percent_label": "Percentages",
+                "xLog": null,
+                "yLog": null,
+                "xlog": false,
+                "ylog": false,
+                "data_labels": [],
+                "xTitle": null,
+                "yTitle": null,
+                "xlab": null,
+                "ylab": null,
+                "xsuffix": null,
+                "ysuffix": null,
+                "tt_suffix": null,
+                "xLabFormat": null,
+                "yLabFormat": null,
+                "xLabelFormat": null,
+                "yLabelFormat": null,
+                "xlab_format": null,
+                "ylab_format": null,
+                "tt_label": null,
+                "xDecimals": null,
+                "yDecimals": null,
+                "decimalPlaces": null,
+                "x_decimals": null,
+                "y_decimals": null,
+                "tt_decimals": null,
+                "xmin": null,
+                "xmax": null,
+                "ymin": null,
+                "ymax": null,
+                "xFloor": null,
+                "xCeiling": null,
+                "yFloor": null,
+                "yCeiling": null,
+                "x_clipmin": null,
+                "x_clipmax": null,
+                "y_clipmin": null,
+                "y_clipmax": null,
+                "save_data_file": true,
+                "showlegend": null,
+                "xMinRange": null,
+                "yMinRange": null,
+                "x_minrange": null,
+                "y_minrange": null,
+                "xPlotBands": null,
+                "yPlotBands": null,
+                "xPlotLines": null,
+                "yPlotLines": null,
+                "x_bands": null,
+                "y_bands": null,
+                "x_lines": null,
+                "y_lines": null,
+                "series_label": "samples",
+                "namespace": "",
+                "save_file": true,
+                "raw_data_fn": "multiqc_general_stats",
+                "defaultsort": null,
+                "sortRows": true,
+                "sort_rows": true,
+                "only_defined_headers": true,
+                "col1_header": "Sample Name",
+                "no_beeswarm": false,
+                "no_violin": false,
+                "scale": "GnBu",
+                "min": null,
+                "parse_numeric": true,
+                "rows_are_samples": true
+            },
+            "add_log_tab": false,
+            "add_pct_tab": false,
+            "l_active": false,
+            "p_active": false,
+            "pct_axis_update": {
+                "ticksuffix": "%",
+                "hoverformat": ".1f"
+            },
+            "axis_controlled_by_switches": [],
+            "square": false,
+            "flat": false,
+            "defer_render": false,
+            "section_anchor": null,
+            "module_anchor": null,
+            "violin_height": 70,
+            "extra_height": 63,
+            "no_violin": false,
+            "show_table": true,
+            "show_table_by_default": true,
+            "n_samples": 8,
+            "table_anchor": "general_stats_table_table"
+        }
+    },
+    "config_analysis_dir": [
+        "HERACLES_output/qc_results/trimmed"
+    ],
+    "config_git_hash": null,
+    "config_intro_text": null,
+    "config_report_comment": null,
+    "config_report_header_info": null,
+    "config_script_path": "/home/huyao/.conda/envs/R4/lib/python3.10/site-packages/multiqc",
+    "config_short_version": "1.30",
+    "config_subtitle": null,
+    "config_title": null,
+    "config_version": "1.30",
+    "config_output_dir": "/mpathc/users/huyao/tsRNA/new_project4/HERACLES_output/qc_results/reports",
+    "config_analysis_dir_abs": [
+        "/mpathc/users/huyao/tsRNA/new_project4/HERACLES_output/qc_results/trimmed"
+    ],
+    "report_saved_raw_data": {
+        "multiqc_cutadapt": {
+            "SRR12857075": {
+                "cutadapt_version": "4.9",
+                "r_processed": 8197462,
+                "r_with_adapters": 8126578,
+                "r_written": 8197462,
+                "bp_processed": 418070562,
+                "quality_trimmed": 1602599,
+                "bp_written": 188066838,
+                "percent_trimmed": 55.01552725924769
+            },
+            "SRR12857076": {
+                "cutadapt_version": "4.9",
+                "r_processed": 5545676,
+                "r_with_adapters": 5463746,
+                "r_written": 5545676,
+                "bp_processed": 282829476,
+                "quality_trimmed": 801802,
+                "bp_written": 138347588,
+                "percent_trimmed": 51.08445203214957
+            },
+            "SRR12857077": {
+                "cutadapt_version": "4.9",
+                "r_processed": 8983377,
+                "r_with_adapters": 8861213,
+                "r_written": 8983377,
+                "bp_processed": 458152227,
+                "quality_trimmed": 1184909,
+                "bp_written": 226486661,
+                "percent_trimmed": 50.56519478622986
+            },
+            "SRR12857078": {
+                "cutadapt_version": "4.9",
+                "r_processed": 6711380,
+                "r_with_adapters": 6547921,
+                "r_written": 6711380,
+                "bp_processed": 342280380,
+                "quality_trimmed": 1091445,
+                "bp_written": 184978068,
+                "percent_trimmed": 45.95715126879315
+            },
+            "SRR12857079": {
+                "cutadapt_version": "4.9",
+                "r_processed": 9007176,
+                "r_with_adapters": 8575881,
+                "r_written": 9007176,
+                "bp_processed": 459365976,
+                "quality_trimmed": 1337406,
+                "bp_written": 270297822,
+                "percent_trimmed": 41.15850190872648
+            },
+            "SRR12857080": {
+                "cutadapt_version": "4.9",
+                "r_processed": 10464454,
+                "r_with_adapters": 10208554,
+                "r_written": 10464454,
+                "bp_processed": 533687154,
+                "quality_trimmed": 1877137,
+                "bp_written": 281117089,
+                "percent_trimmed": 47.32549080617369
+            },
+            "SRR12857081": {
+                "cutadapt_version": "4.9",
+                "r_processed": 10725016,
+                "r_with_adapters": 10415240,
+                "r_written": 10725016,
+                "bp_processed": 546975816,
+                "quality_trimmed": 1564310,
+                "bp_written": 321378569,
+                "percent_trimmed": 41.244464636440156
+            },
+            "SRR12857082": {
+                "cutadapt_version": "4.9",
+                "r_processed": 9291426,
+                "r_with_adapters": 9089308,
+                "r_written": 9291426,
+                "bp_processed": 473862726,
+                "quality_trimmed": 2151914,
+                "bp_written": 231223421,
+                "percent_trimmed": 51.20455602156815
+            }
+        },
+        "multiqc_general_stats": {
+            "SRR12857075": {
+                "cutadapt-percent_trimmed": 55.01552725924769
+            },
+            "SRR12857076": {
+                "cutadapt-percent_trimmed": 51.08445203214957
+            },
+            "SRR12857077": {
+                "cutadapt-percent_trimmed": 50.56519478622986
+            },
+            "SRR12857078": {
+                "cutadapt-percent_trimmed": 45.95715126879315
+            },
+            "SRR12857079": {
+                "cutadapt-percent_trimmed": 41.15850190872648
+            },
+            "SRR12857080": {
+                "cutadapt-percent_trimmed": 47.32549080617369
+            },
+            "SRR12857081": {
+                "cutadapt-percent_trimmed": 41.244464636440156
+            },
+            "SRR12857082": {
+                "cutadapt-percent_trimmed": 51.20455602156815
+            }
+        }
+    }
+}

@@ -1,0 +1,9 @@
+Module	Section	Sample Name	Source
+Cutadapt	all_sections	SRR12857075	/mpathc/users/huyao/tsRNA/new_project4/HERACLES_output/qc_results/trimmed/SRR12857075.fastq_trimming_report.txt
+Cutadapt	all_sections	SRR12857076	/mpathc/users/huyao/tsRNA/new_project4/HERACLES_output/qc_results/trimmed/SRR12857076.fastq_trimming_report.txt
+Cutadapt	all_sections	SRR12857077	/mpathc/users/huyao/tsRNA/new_project4/HERACLES_output/qc_results/trimmed/SRR12857077.fastq_trimming_report.txt
+Cutadapt	all_sections	SRR12857078	/mpathc/users/huyao/tsRNA/new_project4/HERACLES_output/qc_results/trimmed/SRR12857078.fastq_trimming_report.txt
+Cutadapt	all_sections	SRR12857079	/mpathc/users/huyao/tsRNA/new_project4/HERACLES_output/qc_results/trimmed/SRR12857079.fastq_trimming_report.txt
+Cutadapt	all_sections	SRR12857080	/mpathc/users/huyao/tsRNA/new_project4/HERACLES_output/qc_results/trimmed/SRR12857080.fastq_trimming_report.txt
+Cutadapt	all_sections	SRR12857081	/mpathc/users/huyao/tsRNA/new_project4/HERACLES_output/qc_results/trimmed/SRR12857081.fastq_trimming_report.txt
+Cutadapt	all_sections	SRR12857082	/mpathc/users/huyao/tsRNA/new_project4/HERACLES_output/qc_results/trimmed/SRR12857082.fastq_trimming_report.txt

@@ -1,0 +1,9 @@
+Sample,File,Total_reads,Total_bp,Quality_trimmed_bp
+SRR12857075.fastq,SRR12857075.fastq_trimming_report.txt,"8,197,462","418,070,562 bp","1,602,599 bp (0.4%)"
+SRR12857076.fastq,SRR12857076.fastq_trimming_report.txt,"5,545,676","282,829,476 bp","801,802 bp (0.3%)"
+SRR12857077.fastq,SRR12857077.fastq_trimming_report.txt,"8,983,377","458,152,227 bp","1,184,909 bp (0.3%)"
+SRR12857078.fastq,SRR12857078.fastq_trimming_report.txt,"6,711,380","342,280,380 bp","1,091,445 bp (0.3%)"
+SRR12857079.fastq,SRR12857079.fastq_trimming_report.txt,"9,007,176","459,365,976 bp","1,337,406 bp (0.3%)"
+SRR12857080.fastq,SRR12857080.fastq_trimming_report.txt,"10,464,454","533,687,154 bp","1,877,137 bp (0.4%)"
+SRR12857081.fastq,SRR12857081.fastq_trimming_report.txt,"10,725,016","546,975,816 bp","1,564,310 bp (0.3%)"
+SRR12857082.fastq,SRR12857082.fastq_trimming_report.txt,"9,291,426","473,862,726 bp","2,151,914 bp (0.5%)"

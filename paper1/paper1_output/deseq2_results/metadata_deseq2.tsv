@@ -1,0 +1,6 @@
+HERACLES_output/deseq2_results/sample_counts/GSM7990419_counts.tsv	Control
+HERACLES_output/deseq2_results/sample_counts/GSM7990420_counts.tsv	Control
+HERACLES_output/deseq2_results/sample_counts/GSM7990421_counts.tsv	Control
+HERACLES_output/deseq2_results/sample_counts/GSM7990422_counts.tsv	Tumor
+HERACLES_output/deseq2_results/sample_counts/GSM7990423_counts.tsv	Tumor
+HERACLES_output/deseq2_results/sample_counts/GSM7990424_counts.tsv	Tumor

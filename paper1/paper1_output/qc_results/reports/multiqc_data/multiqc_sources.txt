@@ -1,0 +1,7 @@
+Module	Section	Sample Name	Source
+Cutadapt	all_sections	GSM7990419	/mpathc/users/huyao/tsRNA/new_project/HERACLES_output/qc_results/trimmed/GSM7990419.fastq_trimming_report.txt
+Cutadapt	all_sections	GSM7990420	/mpathc/users/huyao/tsRNA/new_project/HERACLES_output/qc_results/trimmed/GSM7990420.fastq_trimming_report.txt
+Cutadapt	all_sections	GSM7990421	/mpathc/users/huyao/tsRNA/new_project/HERACLES_output/qc_results/trimmed/GSM7990421.fastq_trimming_report.txt
+Cutadapt	all_sections	GSM7990422	/mpathc/users/huyao/tsRNA/new_project/HERACLES_output/qc_results/trimmed/GSM7990422.fastq_trimming_report.txt
+Cutadapt	all_sections	GSM7990423	/mpathc/users/huyao/tsRNA/new_project/HERACLES_output/qc_results/trimmed/GSM7990423.fastq_trimming_report.txt
+Cutadapt	all_sections	GSM7990424	/mpathc/users/huyao/tsRNA/new_project/HERACLES_output/qc_results/trimmed/GSM7990424.fastq_trimming_report.txt
