@@ -30,6 +30,11 @@ HERACLES_demo_data/
 │       ├── qc_results/
 │       └── tsRNA_results/
 
+├── inhouse_endometriosis/     # Count matrices for the 46-sample in-house cohort
+│   ├── fragment_counts.tsv    # Non-clustered matrix (43,554 fragments x 46)
+│   ├── cluster_counts.tsv     # Clustered matrix (16,931 clusters x 46)
+│   └── metadata.tsv           # Sample groups (Disease / Control)
+│
 └── figures/                   # Figure generation package (main + supplementary)
     ├── 01_main/               # Figure 1-4: code/, data/, figure/
     ├── 02_supplementary/      # Figure S1-S19: code/, data/, figure/
@@ -101,3 +106,23 @@ Python 3 and the packages in `figures/requirements.txt`.
 
 Raw FASTQ files for the in-house cohort are not redistributed here; they are
 available through controlled access under HRA019031.
+
+## In-house endometriosis cohort
+
+`inhouse_endometriosis/` provides the processed count matrices for the 46
+peripheral-blood libraries analysed in the manuscript (20 cases, 26 controls).
+
+| File | Contents |
+|---|---|
+| `fragment_counts.tsv` | Non-clustered matrix: 43,554 tsRNA fragments x 46 libraries |
+| `cluster_counts.tsv` | Clustered matrix: 16,931 clusters x 46 libraries |
+| `metadata.tsv` | Sample group for each library |
+
+Both matrices are tab-separated integer counts and carry the same total of
+40,135,349 reads; the clustered matrix sums the counts of all fragments
+assigned to each cluster and names the row after its representative. See
+`inhouse_endometriosis/README.md` for the identifier format and the exact
+pipeline settings used.
+
+Raw FASTQ files are not included. They remain under controlled access at
+HRA019031.
