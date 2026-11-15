@@ -1,0 +1,40 @@
+{
+ "v0": {
+  "n_features": 43554,
+  "n_clusters": 16931,
+  "n_singleton": 10089,
+  "n_multi": 6842,
+  "n_cross_parent": 679,
+  "matrix": "/mpathc/users/huyao/tsRNA/revision/results/ablation_v2/v0_cluster/clustered_counts_for_DEG.csv",
+  "n_tested": 12544,
+  "n_sig_p": 242,
+  "n_sig_fdr": 3,
+  "perm_min": 241,
+  "perm_max": 310,
+  "perm_median": 261.0
+ },
+ "v1": {
+  "n_features": 58135,
+  "n_clusters": 23081,
+  "n_singleton": 14256,
+  "n_multi": 8825,
+  "n_cross_parent": 783,
+  "matrix": "/mpathc/users/huyao/tsRNA/revision/results/ablation_v2/v1_cluster/clustered_counts_for_DEG.csv",
+  "n_tested": 16828,
+  "n_sig_p": 448,
+  "n_sig_fdr": 5,
+  "perm_min": 384,
+  "perm_max": 512,
+  "perm_median": 418.5
+ },
+ "common": 43247,
+ "only_v1": 14888,
+ "only_v0": 307,
+ "reads_share_only_v1": 0.0099,
+ "sig_overlap": 91,
+ "jaccard_all": 0.152,
+ "n_tested_in_both": 14732,
+ "jaccard_common_tested": 0.192,
+ "sig_v0_in_both": 218,
+ "sig_v1_in_both": 348
+}

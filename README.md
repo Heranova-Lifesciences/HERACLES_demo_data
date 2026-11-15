@@ -18,17 +18,23 @@ HERACLES_demo_data/
 │       ├── qc_results/                # Quality control reports
 │       └── tsRNA_results/            # Per-sample tsRNA annotation & counts
 │
-└── paper2/                    # Paper 2: Control vs Disease
-    ├── metadata.tsv           # Sample metadata (SRR IDs, groups)
-    ├── SRA_list.txt           # SRA accession numbers
-    └── paper2_output/         # HERACLES pipeline output
-        ├── counts_matrix.tsv
-        ├── cluster_results/
-        ├── deseq2_results/
-        ├── extend_primer_results/
-        ├── prediction_results/
-        ├── qc_results/
-        └── tsRNA_results/
+├── paper2/                    # Paper 2: Control vs Disease
+│   ├── metadata.tsv           # Sample metadata (SRR IDs, groups)
+│   ├── SRA_list.txt           # SRA accession numbers
+│   └── paper2_output/         # HERACLES pipeline output
+│       ├── counts_matrix.tsv
+│       ├── cluster_results/
+│       ├── deseq2_results/
+│       ├── extend_primer_results/
+│       ├── prediction_results/
+│       ├── qc_results/
+│       └── tsRNA_results/
+
+└── figures/                   # Figure generation package (main + supplementary)
+    ├── 01_main/               # Figure 1-4: code/, data/, figure/
+    ├── 02_supplementary/      # Figure S1-S19: code/, data/, figure/
+    ├── 00_shared_data/        # inputs larger than 1 MB, stored once
+    └── README.md              # figure -> script -> input manifest
 ```
 
 ## Datasets
@@ -64,3 +70,34 @@ git clone https://github.com/Heranova-Lifesciences/HERACLES_demo_data.git
 ## Reference
 
 For more information about the HERACLES pipeline, please visit the main repository.
+
+## Figure generation package
+
+`figures/` holds the code and input data behind every main and supplementary
+figure of the manuscript, so that each panel can be regenerated independently.
+
+Each figure has its own folder with three parts:
+
+- `code/` — the plotting script(s)
+- `data/` — the input tables the script reads
+- `figure/` — the delivered PDF and PNG
+
+Input files larger than 1 MB live once in `00_shared_data/` rather than being
+duplicated. `figures/README.md` lists, for every figure, the script that draws
+it and the inputs it consumes; the `NOTES.md` inside each folder gives the same
+information locally, plus a short description of what the figure shows.
+
+```
+figures/01_main/Figure1..4/
+figures/02_supplementary/S01..S19/
+figures/00_shared_data/
+```
+
+Running a script requires the project layout it expects (paths relative to the
+HERACLES project root, such as `cluster_summary_detailed.csv` and
+`server_results/results/...`). Copy the file from that figure's `data/` folder,
+or from `00_shared_data/`, into the expected location, then run the script with
+Python 3 and the packages in `figures/requirements.txt`.
+
+Raw FASTQ files for the in-house cohort are not redistributed here; they are
+available through controlled access under HRA019031.

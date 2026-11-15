@@ -1,0 +1,41 @@
+{
+  "de_fragment_nominal": 444,
+  "de_cluster_nominal": 242,
+  "overlap": 102,
+  "fdr_fragment": 0,
+  "fdr_cluster": 3,
+  "comparisons": [
+    {
+      "label": "cluster_sum vs representative",
+      "n": 3232,
+      "median_delta_neglog10p": 0.019689405062763184,
+      "ci_lo": 0.015102604518326613,
+      "ci_hi": 0.025104044110246578,
+      "wilcoxon_p": 8.664589661959489e-14,
+      "frac_b_better": 0.5826113861386139,
+      "sign_test_p": 5.632680684676836e-21
+    },
+    {
+      "label": "cluster_sum vs best_member",
+      "n": 5171,
+      "median_delta_neglog10p": -0.03331374143190219,
+      "ci_lo": -0.042148808791407255,
+      "ci_hi": -0.02695494033597088,
+      "wilcoxon_p": 1.8478447923682013e-93,
+      "frac_b_better": 0.4111390446722104,
+      "sign_test_p": 1.6453788660622662e-37
+    },
+    {
+      "label": "best_member vs representative",
+      "n": 3242,
+      "median_delta_neglog10p": 0.04027915699000726,
+      "ci_lo": 0.025762447467125905,
+      "ci_hi": 0.05288160307389501,
+      "wilcoxon_p": 6.802719759852434e-291,
+      "frac_b_better": 0.5462677359654534,
+      "sign_test_p": 1.4812718919743267e-07
+    }
+  ],
+  "n_multi": 5196,
+  "frac_cluster_worse_than_best": 0.586027713625866
+}

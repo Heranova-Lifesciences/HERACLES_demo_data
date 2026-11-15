@@ -1,0 +1,11 @@
+setting,method,abund_ratio,kmer_size,min_shared_kmers,min_length_ratio,n_input_features,n_clusters,n_multi,n_cross_parent,max_cluster_size,cross_parent_fragments,max_parents_per_cluster,n_tested,n_sig_p_full,n_sig_fdr_full,perm_sig_p_median,perm_sig_p_min,perm_sig_p_max,obs_over_perm,empirical_p
+default,directional,2.0,10,5,0.94,43554,16931,6842,679,87,6772,5,12542,239,3,255.5,222,304,0.94,0.8
+abund1.5,directional,1.5,10,5,0.94,43554,14902,6161,653,114,8016,7,10870,217,0,228.5,192,281,0.95,0.6
+abund3,directional,3.0,10,5,0.94,43554,20398,7601,704,58,5194,5,14937,299,1,342.0,257,397,0.87,0.9
+kmer8,directional,2.0,8,5,0.94,43554,17510,6731,633,87,6278,5,12940,253,1,290.0,232,325,0.87,0.7
+kmer12,directional,2.0,12,5,0.94,43554,16707,6892,691,87,6891,6,12386,237,1,254.5,230,287,0.93,0.9
+smk3,directional,2.0,10,3,0.94,43554,16412,6988,709,87,7009,6,12255,241,4,246.0,225,270,0.98,0.7
+smk8,directional,2.0,10,8,0.94,43554,18274,6542,614,87,6155,5,13285,250,0,273.5,254,323,0.91,1.0
+ratio090,directional,2.0,10,5,0.9,43554,16931,6842,679,87,6772,5,12542,239,3,275.0,244,320,0.87,1.0
+ratio098,directional,2.0,10,5,0.98,43554,36575,4265,260,19,1059,4,23665,406,1,398.5,387,462,1.02,0.4
+standard,standard,2.0,10,5,0.94,43554,7501,1887,225,1703,26598,14,4126,60,0,63.0,50,88,0.95,0.8
