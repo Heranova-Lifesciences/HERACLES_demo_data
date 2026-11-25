@@ -126,3 +126,13 @@ pipeline settings used.
 
 Raw FASTQ files are not included. They remain under controlled access at
 HRA019031.
+
+## Simulation data
+
+Simulation outputs supporting the manuscript — 30 independent simulations under
+technical-error and differential-expression scenarios — are archived on Zenodo:
+
+<https://doi.org/10.5281/zenodo.24236161>
+
+The archive (`HERACLES_simulation.zip`, 6.8 GB) contains the per-simulation
+outputs.
